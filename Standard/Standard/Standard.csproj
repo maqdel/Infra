@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+
+    <RootNamespace>maqdel.Infra</RootNamespace>
+
+    <Product>maqdel.Infra.Standard</Product>
+
+    <PackageId>maqdel.Infra.Standard</PackageId>
+    <Version>2.1.2</Version>    
+    <Authors>Mario Quilantan</Authors>
+    <Company>maqdel</Company>
+
+    <Title>maqdel.Infra.Standard</Title>
+    <Description>--This is a Beta-- Objects, Tools and helpers for .NET Standard 2.1</Description>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.12" />
+    <None Include ="docs\README.md" Pack="True" PackPath="\" />
+    <None Include="licenses\LICENSE.txt" Pack="true" PackagePath="LICENSE.txt"/>
+  </ItemGroup>
+
+</Project>

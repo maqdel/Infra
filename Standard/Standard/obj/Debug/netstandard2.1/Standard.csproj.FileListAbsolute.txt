@@ -1,0 +1,9 @@
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\bin\Debug\netstandard2.1\Standard.deps.json
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\bin\Debug\netstandard2.1\Standard.dll
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\bin\Debug\netstandard2.1\Standard.pdb
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\obj\Debug\netstandard2.1\Standard.csprojAssemblyReference.cache
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\obj\Debug\netstandard2.1\Standard.AssemblyInfoInputs.cache
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\obj\Debug\netstandard2.1\Standard.AssemblyInfo.cs
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\obj\Debug\netstandard2.1\Standard.csproj.CoreCompileInputs.cache
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\obj\Debug\netstandard2.1\Standard.dll
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\standard\obj\Debug\netstandard2.1\Standard.pdb

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>maqdel.Infra.Standard</id>
+    <version>2.1.2</version>
+    <title>maqdel.Infra.Standard</title>
+    <authors>Mario Quilantan</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>--This is a Beta-- Objects, Tools and helpers for .NET Standard 2.1</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="log4net" version="2.0.12" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netstandard2.1/docs/README.md" buildAction="None" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standard\bin\Debug\netstandard2.1\Standard.dll" target="lib\netstandard2.1\Standard.dll" />
+    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standard\docs\README.md" target="content\docs\README.md" />
+    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standard\docs\README.md" target="contentFiles\any\netstandard2.1\docs\README.md" />
+    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standard\licenses\LICENSE.txt" target="LICENSE.txt" />
+  </files>
+</package>
