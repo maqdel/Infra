@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj": {}
+    "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\StandardTests\\StandardTests.csproj": {}
   },
   "projects": {
-    "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj": {
-      "version": "2.1.2",
+    "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\StandardTests\\StandardTests.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj",
-        "projectName": "maqdel.Infra.Standard",
-        "projectPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj",
+        "projectUniqueName": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\StandardTests\\StandardTests.csproj",
+        "projectName": "StandardTests",
+        "projectPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\StandardTests\\StandardTests.csproj",
         "packagesPath": "C:\\Users\\mario.quilantan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\obj\\",
+        "outputPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\StandardTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
@@ -26,7 +26,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
@@ -39,8 +39,8 @@
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -51,12 +51,20 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "log4net": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[2.0.12, )"
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
             }
           },
           "imports": [
@@ -70,7 +78,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
