@@ -6,9 +6,10 @@
     <RootNamespace>maqdel.Infra</RootNamespace>
 
     <Product>maqdel.Infra.Standard</Product>
+    <AssemblyName>maqdel.Infra.Standard</AssemblyName>
 
     <PackageId>maqdel.Infra.Standard</PackageId>
-    <Version>2.1.2</Version>    
+    <Version>2.1.3</Version>    
     <Authors>Mario Quilantan</Authors>
     <Company>maqdel</Company>
 
@@ -20,7 +21,6 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-
     
   </PropertyGroup>
 

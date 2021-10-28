@@ -1,1 +1,5 @@
+Run build
+dotnet build
+
+Run test
 dotnet test standardtests/standardtests.csproj

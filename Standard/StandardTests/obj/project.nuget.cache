@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QimNGXGJHq+Yq2l6BG7RK2XlR4B9LU5h0wU6t0nKuRgdYD7K7M5IPt+6vSOlAtnCdCEstosGic309cl+4Yh7kA==",
+  "dgSpecHash": "fu/88O+gtjOiQ0c6lWNU+gC8iF+CL4MderVMcBv/nwBygRiwIyyB4Nk+0+1x2oQr65tUdgxKNacGORUPGaXjbA==",
   "success": true,
   "projectFilePath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\standardtests.csproj",
   "expectedPackageFiles": [
@@ -124,8 +124,7 @@
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\mario.quilantan\\.nuget\\packages\\maqdel.infra.standard\\2.1.2\\maqdel.infra.standard.2.1.2.nupkg.sha512"
+    "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

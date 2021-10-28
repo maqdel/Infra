@@ -74,8 +74,7 @@ namespace maqdel.Tests.Infra
 
         [Test]
         public void ConvertToInt_null()
-        {
-            bool value = true;
+        {            
             var result = maqdel.Infra.Helper.ConvertToInt(null);
 
             result.ShouldBe(-1);
