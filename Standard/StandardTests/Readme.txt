@@ -1,0 +1,1 @@
+dotnet test standardtests/standardtests.csproj

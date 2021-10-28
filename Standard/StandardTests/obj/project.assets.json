@@ -7533,9 +7533,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\StandardTests.csproj",
-      "projectName": "StandardTests",
-      "projectPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\StandardTests.csproj",
+      "projectUniqueName": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\standardtests.csproj",
+      "projectName": "standardtests",
+      "projectPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\standardtests.csproj",
       "packagesPath": "C:\\Users\\mario.quilantan\\.nuget\\packages\\",
       "outputPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\obj\\",
       "projectStyle": "PackageReference",

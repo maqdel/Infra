@@ -22,9 +22,9 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="Value"></param>
         /// <returns></returns>
-        public static string ToString(object Value)
+        public static string ConvertToString(object Value)
         {
-            _logger.Info("ToString");
+            _logger.Info("ConvertToString");
             string answer = "";
             try
             {
@@ -39,7 +39,7 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("ToString, Exception:", ex);
+                _logger.Error("ConvertToString, Exception:", ex);
             }
             return answer;
         }
@@ -49,9 +49,9 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="Value">A boolean value</param>
         /// <returns>A string</returns>
-        public static string ToYesNo(bool Value)
+        public static string ConvertToYesNo(bool Value)
         {
-            _logger.Info("ToYesNo");
+            _logger.Info("ConvertToYesNo");
             string answer = "";
             try
             {
@@ -66,7 +66,7 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("ToYesNo, Exception:", ex);
+                _logger.Error("ConvertToYesNo, Exception:", ex);
             }
             return answer;
         }
@@ -76,7 +76,7 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="Value">A boolean value</param>
         /// <returns>An integer</returns>
-        public static int ToInt(bool Value)
+        public static int ConvertToInt(bool Value)
         {
             _logger.Info("ToInt");
             int answer = -1;
@@ -93,7 +93,7 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("ToInt, Exception:", ex);
+                _logger.Error("ConvertToInt, Exception:", ex);
             }
             return answer;
         }
@@ -103,29 +103,29 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="DateTime">A datetime value</param>
         /// <returns>A string</returns>
-        public static string ToSQLServerDateTime(DateTime DateTime)
+        public static string ConvertToSQLServerDateTime(DateTime DateTime)
         {
-            _logger.Info("ToSQLServerDateTime");
+            _logger.Info("ConvertToSQLServerDateTime");
             string answer = "";
             try
             {
                 StringBuilder stringBuilder = new StringBuilder("");
                 stringBuilder.Append("'");
                 stringBuilder.Append(DateTime.Year.ToString());
-                stringBuilder.Append(Fill(DateTime.Month.ToString(), "0", 2, 1));
-                stringBuilder.Append(Fill(DateTime.Day.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Month.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Day.ToString(), "0", 2, 1));
                 stringBuilder.Append(" ");
-                stringBuilder.Append(Fill(DateTime.Hour.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Hour.ToString(), "0", 2, 1));
                 stringBuilder.Append(":");
-                stringBuilder.Append(Fill(DateTime.Minute.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Minute.ToString(), "0", 2, 1));
                 stringBuilder.Append(":");
-                stringBuilder.Append(Fill(DateTime.Second.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Second.ToString(), "0", 2, 1));
                 stringBuilder.Append("'");
                 answer = stringBuilder.ToString();
             }
             catch (Exception ex)
             {
-                _logger.Error("ToSQLServerDateTime, Exception:", ex);
+                _logger.Error("ConvertToSQLServerDateTime, Exception:", ex);
             }
             return answer;
         }
@@ -135,21 +135,21 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="DateTime">A datetime value</param>
         /// <returns>A string</returns>
-        public static string ToSQLServerDate(DateTime DateTime)
+        public static string ConvertToSQLServerDate(DateTime DateTime)
         {
-            _logger.Info("ToSQLServerDate");
+            _logger.Info("ConvertToSQLServerDate");
             string answer = "";
             try
             {
                 StringBuilder stringBuilder = new StringBuilder("");
                 stringBuilder.Append(DateTime.Year.ToString());
-                stringBuilder.Append(Fill(DateTime.Month.ToString(), "0", 2, 1));
-                stringBuilder.Append(Fill(DateTime.Day.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Month.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Day.ToString(), "0", 2, 1));
                 answer = stringBuilder.ToString();
             }
             catch (Exception ex)
             {
-                _logger.Error("ToSQLServerDate, Exception:", ex);
+                _logger.Error("ConvertToSQLServerDate, Exception:", ex);
             }
             return answer;
         }
@@ -159,25 +159,25 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="DateTime">A datetime value</param>
         /// <returns>A string</returns>
-        public static string ToSQLServerTime(DateTime DateTime)
+        public static string ConvertToSQLServerTime(DateTime DateTime)
         {
-            _logger.Info("ToSQLServerTime");
+            _logger.Info("ConvertToSQLServerTime");
             string answer = "";
             try
             {
                 StringBuilder stringBuilder = new StringBuilder("");
                 stringBuilder.Append("'");
-                stringBuilder.Append(Fill(DateTime.Hour.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Hour.ToString(), "0", 2, 1));
                 stringBuilder.Append(":");
-                stringBuilder.Append(Fill(DateTime.Minute.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Minute.ToString(), "0", 2, 1));
                 stringBuilder.Append(":");
-                stringBuilder.Append(Fill(DateTime.Second.ToString(), "0", 2, 1));
+                stringBuilder.Append(FillString(DateTime.Second.ToString(), "0", 2, 1));
                 stringBuilder.Append("'");
                 answer = stringBuilder.ToString();
             }
             catch (Exception ex)
             {
-                _logger.Error("ToSQLServerTime, Exception:", ex);
+                _logger.Error("ConvertToSQLServerTime, Exception:", ex);
             }
             return answer;
         }
@@ -187,9 +187,9 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="Value">An integer value</param>
         /// <returns>A boolean value</returns>
-        public static bool ToBool(int Value)
+        public static bool ConvertToBool(int Value)
         {
-            _logger.Info("ToBool");
+            _logger.Info("ConvertToBool");
             bool answer = false;
             try
             {             
@@ -200,22 +200,22 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("ToBool, Exception:", ex);
+                _logger.Error("ConvertToBool, Exception:", ex);
             }
             return answer;
         }
 
         /// <summary>
-        /// Fill a string
+        /// Fill a string and align
         /// </summary>
         /// <param name="Text">A string</param>
         /// <param name="Filler">A string</param>
         /// <param name="Length">An integer value</param>
         /// <param name="Align">An integer value</param>
         /// <returns></returns>
-        public static string Fill(string Text, string Filler, int Length, int Align)
+        public static string FillString(string Text, string Filler, int Length, int Align)
         {
-            _logger.Info("Fill");
+            _logger.Info("FillString");
             string answer = "";
             try
             {
@@ -242,7 +242,7 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("Fill, Exception:", ex);
+                _logger.Error("FillString, Exception:", ex);
             }
             return answer;
         }
@@ -254,9 +254,9 @@ namespace maqdel.Infra
         /// <param name="Filler">A string</param>
         /// <param name="Length">An integer</param>
         /// <returns>A string</returns>
-        public static string Fill(string Text, string Filler, int Length)
+        public static string FillString(string Text, string Filler, int Length)
         {
-            _logger.Info("Fill");
+            _logger.Info("FillString");
             string answer = "";
             try
             {
@@ -276,7 +276,7 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("Fill, Exception:", ex);
+                _logger.Error("FillString, Exception:", ex);
             }
             return answer;
         }
@@ -305,9 +305,9 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="Text"></param>
         /// <returns></returns>
-        public static string TextToHTML(string Text)
+        public static string ConvertTextToHTML(string Text)
         {
-            _logger.Info("TextToHTML");
+            _logger.Info("ConvertTextToHTML");
             string answer = Text;
             try
             {
@@ -326,7 +326,7 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("TextToHTML, Exception:", ex);
+                _logger.Error("ConvertTextToHTML, Exception:", ex);
             }
             return answer;
         }
@@ -364,9 +364,9 @@ namespace maqdel.Infra
         /// </summary>
         /// <param name="Month"></param>
         /// <returns></returns>
-        public static string ToMonthName(int Month)
+        public static string ConvertToMonthName(int Month)
         {
-            _logger.Info("ToMonthName");
+            _logger.Info("ConvertToMonthName");
             string answer = "";
             try
             {
@@ -412,13 +412,13 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("ToMonthName, Exception:", ex);
+                _logger.Error("ConvertToMonthName, Exception:", ex);
             }
             return answer;
         }
 
         /// <summary>
-        /// Validate if is a number
+        /// Validate if the object is a number
         /// </summary>
         /// <param name="Object">Objeto a evaluar</param>
         /// <returns></returns>
@@ -441,7 +441,7 @@ namespace maqdel.Infra
         }
 
         /// <summary>
-        /// Validate if is a number
+        /// Validate if the string is a number
         /// </summary>
         /// <param name="String">Texto a evaluar</param>
         /// <returns></returns>
@@ -524,13 +524,13 @@ namespace maqdel.Infra
         }
 
         /// <summary>
-        /// Get int value from string
+        /// Convert a string to int
         /// </summary>
         /// <param name="String"></param>
         /// <returns></returns>
-        public static int GetInt(string String)
+        public static int ConvertToInt(string String)
         {
-            _logger.Info("GetInt");
+            _logger.Info("ConvertToInt");
             var answer = -1;
             try
             {
@@ -538,20 +538,20 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("GetInt, Exception:", ex);
+                _logger.Error("ConvertToInt, Exception:", ex);
             }
             return answer;
         }
 
         /// <summary>
-        /// Get int value from string or return a value
+        /// Convert a string to int or return an error value
         /// </summary>
         /// <param name="String"></param>
         /// <param name="ErrorValue"></param>
         /// <returns></returns>
-        public static int GetInt(string String, int ErrorValue)
+        public static int ConvertToInt(string String, int ErrorValue)
         {
-            _logger.Info("GetInt");
+            _logger.Info("ConvertToInt");
             var answer = -1;
             try
             {
@@ -559,19 +559,19 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("GetInt, Exception:", ex);
+                _logger.Error("ConvertToInt, Exception:", ex);
             }
             return answer;
         }
 
         /// <summary>
-        /// Get decimal value from string or return a value
+        /// Convert a string to decimal
         /// </summary>
         /// <param name="String"></param>
         /// <returns></returns>
-        public static decimal GetDecimal(string String)
+        public static decimal ConvertToDecimal(string String)
         {
-            _logger.Info("GetDecimal");
+            _logger.Info("ConvertToDecimal");
             decimal answer = -1;
             try
             {
@@ -579,7 +579,7 @@ namespace maqdel.Infra
             }
             catch (Exception ex)
             {
-                _logger.Error("GetDecimal, Exception:", ex);
+                _logger.Error("ConvertToDecimal, Exception:", ex);
             }
             return answer;
         }
@@ -587,19 +587,19 @@ namespace maqdel.Infra
         /// <summary>
         /// Get string from a string value
         /// </summary>
-        /// <param name="Source">A source string</param>
+        /// <param name="SourceString">A source string</param>
         /// <param name="Start">An integer</param>
         /// <param name="Length">An integer</param>
         /// <returns>A string</returns>
-        public static string GetSubstring(string Source, int Start, int Length)
+        public static string GetSubstring(string SourceString, int Start, int Length)
         {
             _logger.Info("GetSubstring");
             string answer = "";
             try
             {
-                if (Length <= Source.Length)
+                if (Length <= SourceString.Length)
                 {
-                    answer = Source.Substring(Start, Length);
+                    answer = SourceString.Substring(Start, Length);
                 }                
             }
             catch (Exception ex)
@@ -612,27 +612,27 @@ namespace maqdel.Infra
         /// <summary>
         /// Get string from a string value
         /// </summary>
-        /// <param name="Source">A source string</param>
+        /// <param name="SourceString">A source string</param>
         /// <param name="Start">An integer</param>
         /// <param name="Length">An integer</param>
         /// <param name="CleanSpaces">A string</param>
         /// <returns></returns>
-        public static string GetSubstring(string Source, int Start, int Length, bool CleanSpaces)
+        public static string GetSubstring(string SourceString, int Start, int Length, bool CleanSpaces)
         {
             _logger.Info("GetSubstring");
             string answer = "";
             try
             {
-                if (Length <= Source.Length)
+                if (Length <= SourceString.Length)
                 {
                     if (CleanSpaces)
                     {
-                        string CadenaLimpia = Source.Substring(Start, Length).TrimEnd();
+                        string CadenaLimpia = SourceString.Substring(Start, Length).TrimEnd();
                         answer = CadenaLimpia;
                     }
                     else
                     {
-                        answer = Source.Substring(Start, Length);
+                        answer = SourceString.Substring(Start, Length);
                     }
                 }
             }
