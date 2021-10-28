@@ -19,9 +19,9 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standard\bin\Debug\netstandard2.1\Standard.dll" target="lib\netstandard2.1\Standard.dll" />
-    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standard\docs\README.md" target="content\docs\README.md" />
-    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standard\docs\README.md" target="contentFiles\any\netstandard2.1\docs\README.md" />
-    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standard\licenses\LICENSE.txt" target="LICENSE.txt" />
+    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\Standard.dll" target="lib\netstandard2.1\Standard.dll" />
+    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\Standard\docs\README.md" target="content\docs\README.md" />
+    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\Standard\docs\README.md" target="contentFiles\any\netstandard2.1\docs\README.md" />
+    <file src="C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\Standard\licenses\LICENSE.txt" target="LICENSE.txt" />
   </files>
 </package>
