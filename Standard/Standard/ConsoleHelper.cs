@@ -84,7 +84,6 @@ namespace maqdel.Infra
             }
         }
 
-
         /// <summary>
         /// Write text in a console position
         /// </summary>

@@ -8,13 +8,13 @@ namespace maqdel.Tests.Infra
 {
     [TestFixture]
     [SetCulture("en-US")]
-    public class HelperTests
+    public class InfraHelperTests
     {        
         [Test]
         public void ConvertToString_int()
         {
             int value = 999;
-            var result = maqdel.Infra.Helper.ConvertToString(value);
+            var result = maqdel.Infra.InfraHelper.ConvertToString(value);
 
             result.ShouldBe("999");
         }
@@ -23,7 +23,7 @@ namespace maqdel.Tests.Infra
         public void ConvertToString_double()
         {
             double value = 999.99;
-            var result = maqdel.Infra.Helper.ConvertToString(value);
+            var result = maqdel.Infra.InfraHelper.ConvertToString(value);
 
             result.ShouldBe("999.99");            
         }        
@@ -31,7 +31,7 @@ namespace maqdel.Tests.Infra
         [Test]
         public void ConvertToString_null()
         {
-            var result = maqdel.Infra.Helper.ConvertToString(null);
+            var result = maqdel.Infra.InfraHelper.ConvertToString(null);
 
             result.ShouldBe("");
         }
@@ -40,7 +40,7 @@ namespace maqdel.Tests.Infra
         public void ConvertToYesNo_Yes()
         {
             bool value = true;
-            var result = maqdel.Infra.Helper.ConvertToYesNo(value);
+            var result = maqdel.Infra.InfraHelper.ConvertToYesNo(value);
 
             result.ShouldBe("Yes");
         }
@@ -49,7 +49,7 @@ namespace maqdel.Tests.Infra
         public void ConvertToYesNo_No()
         {
             bool value = false;
-            var result = maqdel.Infra.Helper.ConvertToYesNo(value);
+            var result = maqdel.Infra.InfraHelper.ConvertToYesNo(value);
 
             result.ShouldBe("No");
         }
@@ -58,7 +58,7 @@ namespace maqdel.Tests.Infra
         public void ConvertToInt_true()
         {
             bool value = true;
-            var result = maqdel.Infra.Helper.ConvertToInt(value);
+            var result = maqdel.Infra.InfraHelper.ConvertToInt(value);
 
             result.ShouldBe(1);
         }
@@ -67,7 +67,7 @@ namespace maqdel.Tests.Infra
         public void ConvertToInt_false()
         {
             bool value = false;
-            var result = maqdel.Infra.Helper.ConvertToInt(value);
+            var result = maqdel.Infra.InfraHelper.ConvertToInt(value);
 
             result.ShouldBe(0);
         }
@@ -75,7 +75,7 @@ namespace maqdel.Tests.Infra
         [Test]
         public void ConvertToInt_null()
         {            
-            var result = maqdel.Infra.Helper.ConvertToInt(null);
+            var result = maqdel.Infra.InfraHelper.ConvertToInt(null);
 
             result.ShouldBe(-1);
         }

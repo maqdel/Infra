@@ -13,9 +13,9 @@ using log4net;
 
 namespace maqdel.Infra
 {
-    public class Helper
+    public class InfraHelper
     {
-        private static readonly ILog _logger = LogManager.GetLogger(typeof(Helper));
+        private static readonly ILog _logger = LogManager.GetLogger(typeof(InfraHelper));
 
         /// <summary>
         /// Convert an object to string
