@@ -13,8 +13,13 @@
 
 Publish Nuget
 
--Update version on .csproj
+Update README.md
+
+Update web
+
+-Update version and release data on .csproj
 <Version>
+<PackageReleaseNotes>
 
 -Create NUget
 dotnet pack

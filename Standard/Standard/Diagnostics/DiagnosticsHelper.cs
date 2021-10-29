@@ -19,13 +19,13 @@ namespace maqdel.Infra.Diagnostics
         private static readonly ILog _logger = LogManager.GetLogger(typeof(DiagnosticsHelper));
 
         /// <summary>
-        /// Get the File Version Info from an assembly
+        /// Get assembly File Version Info
         /// </summary>
         /// <param name="Assembly"></param>
         /// <returns></returns>
-        public static FileVersionInfo GetFileVersionInfo(Assembly Assembly)
+        public static FileVersionInfo GetAssemblyFileVersionInfo(Assembly Assembly)
         {
-            _logger.Info("GetFileVersionInfo");
+            _logger.Info("GetAssemblyFileVersionInfo");
             FileVersionInfo answer = null;
             try
             {
@@ -34,37 +34,101 @@ namespace maqdel.Infra.Diagnostics
             }
             catch (Exception ex)
             {
-                _logger.Error("GetFileVersionInfo, Exception:", ex);
+                _logger.Error("GetAssemblyFileVersionInfo, Exception:", ex);
             }
             return answer;
         }
 
         /// <summary>
-        /// Get the Product FullName
+        /// Get assembly Product FullName
         /// </summary>
         /// <param name="Assembly"></param>
         /// <returns></returns>
-        public static string GetProductFullName(Assembly Assembly)
+        public static string GetAssemblyProductFullName(Assembly Assembly)
         {
-            _logger.Info("GetProductFullName");
+            _logger.Info("GetAssemblyProductFullName");
             string answer = "";
             try
             {
-                FileVersionInfo fileVersionInfo = GetFileVersionInfo(Assembly);
+                FileVersionInfo fileVersionInfo = GetAssemblyFileVersionInfo(Assembly);
 
-                var companyName = fileVersionInfo.CompanyName;
                 var productName = fileVersionInfo.ProductName;
                 var productVersion = fileVersionInfo.ProductVersion;                
 
-                answer = productName + " " + productVersion + " ";
+                answer = productName + " " + productVersion;
             }
             catch (Exception ex)
             {
-                _logger.Error("GetProductFullName, Exception:", ex);
+                _logger.Error("GetAssemblyProductFullName, Exception:", ex);
             }
             return answer;
         } 
 
+        /// <summary>
+        /// Get assembly Product Name
+        /// </summary>
+        /// <param name="Assembly"></param>
+        /// <returns></returns>
+        public static string GetAssemblyProductName(Assembly Assembly)
+        {
+            _logger.Info("GetAssemblyProductName");
+            string answer = "";
+            try
+            {
+                FileVersionInfo fileVersionInfo = GetAssemblyFileVersionInfo(Assembly);
+
+                answer = fileVersionInfo.ProductName;
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("GetAssemblyProductName, Exception:", ex);
+            }
+            return answer;
+        } 
+
+        /// <summary>
+        /// Get assembly Product Version
+        /// </summary>
+        /// <param name="Assembly"></param>
+        /// <returns></returns>
+        public static string GetAssemblyProductVersion(Assembly Assembly)
+        {
+            _logger.Info("GetAssemblyProductVersion");
+            string answer = "";
+            try
+            {
+                FileVersionInfo fileVersionInfo = GetAssemblyFileVersionInfo(Assembly);
+
+                answer = fileVersionInfo.ProductVersion;
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("GetAssemblyProductVersion, Exception:", ex);
+            }
+            return answer;
+        } 
+
+        /// <summary>
+        /// Get assembly Company
+        /// </summary>
+        /// <param name="Assembly"></param>
+        /// <returns></returns>
+        public static string GetAssemblyCompany(Assembly Assembly)
+        {
+            _logger.Info("GetAssemblyCompany");
+            string answer = "";
+            try
+            {
+                FileVersionInfo fileVersionInfo = GetAssemblyFileVersionInfo(Assembly);
+
+                answer = fileVersionInfo.CompanyName;
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("GetAssemblyCompany, Exception:", ex);
+            }
+            return answer;
+        } 
 
         /* 
         public static void Example()
