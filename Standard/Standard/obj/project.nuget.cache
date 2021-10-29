@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRv0PlKNh6rFmY6hcXTgwpxmx8UHY9fkprvpO2aSbbnHbpPywDcwkAp2HvmSNgRTACkXknCIijElp4n3JGYeoA==",
+  "dgSpecHash": "Bh83YNrTueMnY1mObf+8zm7IXZswwGxNrS+eVZsVaYuSUxDUSNFHeEO6pLm7Wfvyn/LvK7+FRH+sGWRwk7Yyyw==",
   "success": true,
-  "projectFilePath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standard\\standard.csproj",
+  "projectFilePath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",

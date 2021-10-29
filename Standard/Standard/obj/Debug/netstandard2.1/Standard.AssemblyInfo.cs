@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("maqdel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(@"
-    Objects, Tools and Helpers for .NET
+    Objects, Tools, and Helpers for .NET Development
 
     Tools:
     Infra.IO.CSVFileTool

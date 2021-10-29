@@ -10,7 +10,7 @@
     <Product>maqdel.Infra.Standard</Product>
     <Title>maqdel.Infra.Standard</Title>
     <Description>
-    Objects, Tools and Helpers for .NET
+    Objects, Tools, and Helpers for .NET Development
 
     Tools:
     Infra.IO.CSVFileTool
@@ -46,7 +46,7 @@
     Infra.Net.NetworkTracerTool
     Infra.Security.SecurityHelper
     Infra.ConsoleHelper
-    Infra.Helper
+    Infra.InfraHelper
 
     </PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
