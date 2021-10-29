@@ -1,5 +1,5 @@
 Run build
-dotnet build
+dotnet build standard/standard.csproj
 
 Run test
 dotnet test standardtests/standardtests.csproj

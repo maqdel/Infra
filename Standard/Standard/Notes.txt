@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+Publish Nuget
+
+-Update version on .csproj
+<Version>
+
+-Create NUget
+dotnet pack
+
+-Go to the nuget folder
+...\bin\debug
+
+-Push nuget
+dotnet nuget push maqdel.Infra.Standard.2.1.x.nupkg --api-key ABC123 --source https://api.nuget.org/v3/index.json

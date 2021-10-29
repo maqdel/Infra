@@ -1632,7 +1632,7 @@
           "log4net": "2.0.12"
         },
         "runtime": {
-          "Standard.dll": {}
+          "maqdel.Infra.Standard.dll": {}
         }
       }
     }
