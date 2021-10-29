@@ -2,43 +2,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>maqdel.Infra.Standard</id>
-    <version>2.1.0</version>
+    <version>2.1.3.1</version>
     <title>maqdel.Infra.Standard</title>
     <authors>Mario Quilantan</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="file">LICENSE.txt</license>
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <projectUrl>https://maqdel.wordpress.com/maqdel-infra/</projectUrl>
-    <description>Objects, Tools and Helpers for .NET
+    <description>--This is a Beta-- 
+    Objects, Tools and helpers for .NET Standard 2.1</description>
+    <releaseNotes>Realase Notes1
+    Realase Notes2
 
-    Tools:
-
-    Infra.IO.CSVFileTool
-    Infra.IO.FileRiderTool
-    Infra.Net.NetworkTracerTool
-
-    Helpers:
-
-    Infra.Diagnostics.DiagnosticsHelper        
-    Infra.IO.IOHelper
-    Infra.Net.NetHelper    
-    Infra.Security.SecurityHelper
-    Infra.ConsoleHelper
-    Infra.InfraHelper
-
-    Compatible with: .NET Standard 2.1/.NET Core 3.0/.NET 5.0</description>
-    <releaseNotes>Classes:
-
-    Infra.Diagnostics.DiagnosticsHelper
-    Infra.IO.CSVFileTool
-    Infra.IO.FileRiderTool
-    Infra.IO.IOHelper
-    Infra.Net.NetHelper
-    Infra.Net.NetworkTracerTool
-    Infra.Security.SecurityHelper
-    Infra.ConsoleHelper
-    Infra.Helper</releaseNotes>
-    <tags>.Net Standard 2.1</tags>
+    Realase Notes3</releaseNotes>
+    <copyright>Copyrigth</copyright>
+    <tags>.Net Standard</tags>
     <repository url="https://github.com/maqdel/VSC_Infra_Standard_2_1" />
     <dependencies>
       <group targetFramework=".NETStandard2.1">

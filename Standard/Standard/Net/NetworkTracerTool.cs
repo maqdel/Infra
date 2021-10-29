@@ -20,9 +20,9 @@ namespace maqdel.Infra.Net
         public string MachineName;
     }
 
-    public class NetworkTracer
+    public class NetworkTracerTool
     {        
-        private readonly ILog _logger = LogManager.GetLogger(typeof(NetworkTracer));
+        private readonly ILog _logger = LogManager.GetLogger(typeof(NetworkTracerTool));
 
         private Task _mainTask;
 
@@ -40,7 +40,7 @@ namespace maqdel.Infra.Net
         public bool IsRunning { get; private set; }
         public bool StopRun { get; private set; }
 
-        public NetworkTracer(IPAddress InitialIP)
+        public NetworkTracerTool(IPAddress InitialIP)
         {
             this._logger.InfoFormat("NetworkTracer, InitialIP:{0}", InitialIP);
             try

@@ -10,7 +10,7 @@ using System.Security.Cryptography;
 
 namespace maqdel.Infra.Security
 {
-    public class Encryption
+    public class SecurityHelper
     {
         private static byte[] EncryptRijndael(byte[] clearData, byte[] Key, byte[] IV)
         {

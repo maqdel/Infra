@@ -8,7 +8,16 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="file">LICENSE.txt</license>
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
-    <description>--This is a Beta-- Objects, Tools and helpers for .NET Standard 2.1</description>
+    <projectUrl>https://maqdel.wordpress.com/maqdel-infra/</projectUrl>
+    <description>--This is a Beta-- 
+    Objects, Tools and helpers for .NET Standard 2.1</description>
+    <releaseNotes>Realase Notes1
+    Realase Notes2
+
+    Realase Notes3</releaseNotes>
+    <copyright>Copyrigth</copyright>
+    <tags>.Net Standard</tags>
+    <repository url="https://github.com/maqdel/VSC_Infra_Standard_2_1" />
     <dependencies>
       <group targetFramework=".NETStandard2.1">
         <dependency id="log4net" version="2.0.12" exclude="Build,Analyzers" />
