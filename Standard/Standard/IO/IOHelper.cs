@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System.IO;
-using System.Drawing;
-
 
 using log4net;
 
@@ -209,7 +207,7 @@ namespace maqdel.Infra.IO
         /// </summary>
         /// <param name="FileName">A valid file path</param>
         /// <returns>A byte array</returns>
-        public static byte[] ToByteArray(string FileName)
+        public static byte[] ToByteArray(string FileName)        
         {
             _logger.Info("ToByteArray");
             Byte[] answer;
@@ -232,6 +230,27 @@ namespace maqdel.Infra.IO
             }
             return answer;
         }
+
+        public static string OpenTextFile(string FilePath)
+        {            
+            _logger.Info("OpenTextFile");
+            string answer = "";
+            try
+            {
+                string texFileData = "";
+                TextReader textReader = new StreamReader(FilePath);
+                texFileData = textReader.ReadToEnd();
+                textReader.Close();
+                if(texFileData.Length > 0){
+                    answer = texFileData;
+                }                
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("OpenTextFile, Exception:", ex);
+            }
+            return answer;
+        } 
 
         /*         /// <summary>
                 /// Get an image from a byte array

@@ -2,7 +2,7 @@
 Objects, Tools, and Helpers for .NET Development
 
 # Compatible with: 
-.NET Standard 2.1/.NET Core 3.0/.NET 5.0
+.NET Core 3.0/.NET 5.0/.NET Standard 2.1
 
 ## Author
 
@@ -15,6 +15,7 @@ Objects, Tools, and Helpers for .NET Development
   - Infra.IO.CSVFileTool
   - Infra.IO.FileRiderTool
   - Infra.Net.NetworkTracerTool
+  - Infra.Net.WebRequestTool
 
 - Helpers:
   - Infra.Diagnostics.DiagnosticsHelper        

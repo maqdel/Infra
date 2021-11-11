@@ -17,4 +17,15 @@
     <ProjectReference Include="..\Standard\Standard.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="data\test001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="data\csv001.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -212,3 +212,5 @@ C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standardtests\bin\
 C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standardtests\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standardtests\bin\Debug\net5.0\maqdel.Infra.Standard.dll
 C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standardtests\bin\Debug\net5.0\maqdel.Infra.Standard.pdb
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standardtests\bin\Debug\net5.0\data\test001.txt
+C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\standardtests\bin\Debug\net5.0\data\csv001.csv

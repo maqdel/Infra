@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>maqdel.Infra.Standard</id>
-    <version>2.1.0</version>
+    <version>2.1.0.2</version>
     <title>maqdel.Infra.Standard</title>
     <authors>Mario Quilantan</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -15,6 +15,7 @@
     Infra.IO.CSVFileTool
     Infra.IO.FileRiderTool
     Infra.Net.NetworkTracerTool
+    Infra.Net.WebRequestTool
 
     Helpers:
     Infra.Diagnostics.DiagnosticsHelper        
@@ -24,21 +25,14 @@
     Infra.ConsoleHelper
     Infra.InfraHelper
 
-    Compatible with: .NET Standard 2.1/.NET Core 3.0/.NET 5.0</description>
-    <releaseNotes>Release classes:
-    Infra.Diagnostics.DiagnosticsHelper
-    Infra.IO.CSVFileTool
-    Infra.IO.FileRiderTool
-    Infra.IO.IOHelper
-    Infra.Net.NetHelper
-    Infra.Net.NetworkTracerTool
-    Infra.Security.SecurityHelper
-    Infra.ConsoleHelper
-    Infra.InfraHelper</releaseNotes>
+    Compatible with: .NET Core 3.0/.NET 5.0/.NET Standard 2.1</description>
+    <releaseNotes>Release class:
+    Infra.Net.WebRequestTool</releaseNotes>
     <tags>.Net Standard 2.1</tags>
     <repository url="https://github.com/maqdel/VSC_Infra_Standard_2_1" />
     <dependencies>
       <group targetFramework=".NETStandard2.1">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
         <dependency id="log4net" version="2.0.12" exclude="Build,Analyzers" />
       </group>
     </dependencies>

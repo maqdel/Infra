@@ -20,6 +20,7 @@ using System.Reflection;
     Infra.IO.CSVFileTool
     Infra.IO.FileRiderTool
     Infra.Net.NetworkTracerTool
+    Infra.Net.WebRequestTool
 
     Helpers:
     Infra.Diagnostics.DiagnosticsHelper        
@@ -29,13 +30,13 @@ using System.Reflection;
     Infra.ConsoleHelper
     Infra.InfraHelper
 
-    Compatible with: .NET Standard 2.1/.NET Core 3.0/.NET 5.0
+    Compatible with: .NET Core 3.0/.NET 5.0/.NET Standard 2.1
     ")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0.2")]
 [assembly: System.Reflection.AssemblyProductAttribute("maqdel.Infra.Standard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("maqdel.Infra.Standard")]
-[assembly: System.Reflection.AssemblyVersionAttribute("2.1.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.1.0.2")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/maqdel/VSC_Infra_Standard_2_1")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("en-US")]
 

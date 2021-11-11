@@ -53,23 +53,40 @@ namespace maqdel.Infra.IO
             }
         }
 
+        public bool LoadCSVData(string FileData)
+        {
+            _logger.Info("LoadFile");
+            var answer = false;
+            try
+            {
+                _file = new StringBuilder(FileData);
+
+                Rows = this.GetLinesCount();
+
+                Columns = this.GetLineColumns();
+                Fields = this.GetFields();
+
+                answer =  true;
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("LoadFile, Exception:", ex);
+            }
+            return answer;
+        }
+
         public bool LoadFile()
         {
             _logger.Info("LoadFile");
             var answer = false;
             try
             {
-                string filetext = OpenFile(this._filename);
+                string filetext = IOHelper.OpenTextFile(this._filename);
                 string lastChar = filetext.Substring(filetext.Length - 1, 1);
                 filetext = filetext.Remove(filetext.Length - 1);
                 lastChar = filetext.Substring(filetext.Length - 1, 1);
 
-                this._file = new StringBuilder(filetext);
-
-                this.Rows = this.GetLinesCount();
-
-                this.Columns = this.GetLineColumns();
-                this.Fields = this.GetFields();
+                LoadCSVData(filetext);
 
                 answer =  true;
             }
@@ -86,7 +103,7 @@ namespace maqdel.Infra.IO
             var answer = false;
             try
             {
-                string filetext = OpenFile(this._filename);
+                string filetext = IOHelper.OpenTextFile(this._filename);
                 string lastChar = filetext.Substring(filetext.Length - 1, 1);
                 filetext = filetext.Remove(filetext.Length - 1);
                 lastChar = filetext.Substring(filetext.Length - 1, 1);                
@@ -105,25 +122,6 @@ namespace maqdel.Infra.IO
             catch (Exception ex)
             {
                 _logger.Error("LoadFile, Exception:", ex);
-            }
-            return answer;
-        }
-
-        public string OpenFile(string FileNameFullPath)
-        {
-            _logger.Info("OpenFile");
-            var answer = "";
-            try
-            {
-                string texFile = "";
-                TextReader textReader = new StreamReader(FileNameFullPath);
-                texFile = textReader.ReadToEnd();
-                textReader.Close();
-                answer = texFile;
-            }
-            catch (Exception ex)
-            {
-                _logger.Error("OpenFile, Exception:", ex);
             }
             return answer;
         }

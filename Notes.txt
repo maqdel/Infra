@@ -1,5 +1,10 @@
+Debug
+dotnet debug standard/standard.csproj
+dotnet debug standardtests/standardtests.csproj
+
 Run build
 dotnet build standard/standard.csproj
+dotnet build standardtests/standardtests.csproj
 
 Run test
 dotnet test standardtests/standardtests.csproj
