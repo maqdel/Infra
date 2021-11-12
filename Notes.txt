@@ -5,6 +5,7 @@ dotnet debug standardtests/standardtests.csproj
 Run build
 dotnet build standard/standard.csproj
 dotnet build standardtests/standardtests.csproj
+dotnet build standardtests_6_0/standardtests_6_0.csproj
 
 Run test
 dotnet test standardtests/standardtests.csproj

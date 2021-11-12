@@ -1955,7 +1955,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "maqdel.Infra.Standard/2.1.0.3": {
+      "maqdel.Infra.Standard/2.1.0.4": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
@@ -6944,7 +6944,7 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "maqdel.Infra.Standard/2.1.0.3": {
+    "maqdel.Infra.Standard/2.1.0.4": {
       "type": "project",
       "path": "../Standard/Standard.csproj",
       "msbuildProject": "../Standard/Standard.csproj"
@@ -6956,7 +6956,7 @@
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
       "Shouldly >= 4.0.3",
-      "maqdel.Infra.Standard >= 2.1.0.3"
+      "maqdel.Infra.Standard >= 2.1.0.4"
     ]
   },
   "packageFolders": {

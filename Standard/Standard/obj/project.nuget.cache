@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fd2QnfL7dz06yAtlGXWeEpXYhBjHZ9oKohpPzYONP/X4Kij2u7yhKI7r2Hs5VB0q6xPEDxaxTLQhK1HyAyB/1w==",
+  "dgSpecHash": "tnA7K/yBkEJz5rBcqzvqDkdIcn9olynclNGYk+n6r63AZ2Yqw92jqw2NLIw7WFGvqGGCb/pOkwv8WI1dP7jI3Q==",
   "success": true,
-  "projectFilePath": "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\standard\\standard.csproj",
+  "projectFilePath": "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
