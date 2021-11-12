@@ -16,6 +16,8 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(@"
     Objects, Tools, and Helpers for .NET Development
 
+    Compatible with: .NET 6.0/.NET 5.0/.NET Core 3.0/.NET Standard 2.1
+
     Tools:
     Infra.IO.CSVFileTool
     Infra.IO.FileRiderTool
@@ -28,15 +30,13 @@ using System.Reflection;
     Infra.Net.NetHelper    
     Infra.Security.SecurityHelper
     Infra.ConsoleHelper
-    Infra.InfraHelper
-
-    Compatible with: .NET Core 3.0/.NET 5.0/.NET Standard 2.1
+    Infra.InfraHelper    
     ")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.2")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0.2")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0.4")]
 [assembly: System.Reflection.AssemblyProductAttribute("maqdel.Infra.Standard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("maqdel.Infra.Standard")]
-[assembly: System.Reflection.AssemblyVersionAttribute("2.1.0.2")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.1.0.4")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/maqdel/VSC_Infra_Standard_2_1")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("en-US")]
 

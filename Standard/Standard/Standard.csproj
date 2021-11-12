@@ -5,12 +5,14 @@
     <AssemblyName>maqdel.Infra.Standard</AssemblyName>
     <RootNamespace>maqdel.Infra</RootNamespace>
 
-    <Version>2.1.0.2</Version>
+    <Version>2.1.0.4</Version>
 
     <Product>maqdel.Infra.Standard</Product>
     <Title>maqdel.Infra.Standard</Title>
     <Description>
     Objects, Tools, and Helpers for .NET Development
+
+    Compatible with: .NET 6.0/.NET 5.0/.NET Core 3.0/.NET Standard 2.1
 
     Tools:
     Infra.IO.CSVFileTool
@@ -24,9 +26,7 @@
     Infra.Net.NetHelper    
     Infra.Security.SecurityHelper
     Infra.ConsoleHelper
-    Infra.InfraHelper
-
-    Compatible with: .NET Core 3.0/.NET 5.0/.NET Standard 2.1
+    Infra.InfraHelper    
     </Description>
     <Authors>Mario Quilantan</Authors>
     <Company>maqdel</Company>
@@ -38,10 +38,10 @@
     <PackageProjectUrl>https://maqdel.wordpress.com/maqdel-infra/</PackageProjectUrl>
     <PackageTags>.Net Standard 2.1</PackageTags>    
     <PackageReleaseNotes>
-    Release class:
-    Infra.Net.WebRequestTool
+    Release:
+    Compatible with .NET 6.0
     </PackageReleaseNotes>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
             

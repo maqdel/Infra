@@ -2,12 +2,11 @@
 Objects, Tools, and Helpers for .NET Development
 
 # Compatible with: 
-.NET Core 3.0/.NET 5.0/.NET Standard 2.1
+.NET 6.0/.NET 5.0/.NET Core 3.0/.NET Standard 2.1
 
 ## Author
 
 - [@maqdel](https://www.github.com/maqdel)
-
  
 ## Features
 
@@ -26,7 +25,7 @@ Objects, Tools, and Helpers for .NET Development
   - Infra.InfraHelper
 
 ## 🚀 About Me
-I'm a full stack developer...
+I'm a full stack developer for more than 15 years...
 
   
 ## Support

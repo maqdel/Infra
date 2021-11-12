@@ -8,3 +8,4 @@ dotnet build standardtests/standardtests.csproj
 
 Run test
 dotnet test standardtests/standardtests.csproj
+dotnet test standardtests_6_0/standardtests_6_0.csproj

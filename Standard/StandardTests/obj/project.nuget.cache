@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h9fRWGXUxpzpwSB0mG7ShJ/fwcI20l+iu+vvcyUwGM6eXO2dzKJId5xo1tRK6JFg3o69C89rX6t3MDONlzdnZw==",
+  "dgSpecHash": "YzEFpkt8RtSmX1CkqliyClq2lDD/gPjPFGX2zSdrBPDhYaBZGtW0nTzx354a83chRTIoV38bAKx+WdYQo65rZg==",
   "success": true,
-  "projectFilePath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\standardtests.csproj",
+  "projectFilePath": "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\standardtests\\standardtests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\diffengine\\6.4.9\\diffengine.6.4.9.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\emptyfiles\\2.3.3\\emptyfiles.2.3.3.nupkg.sha512",

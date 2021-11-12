@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj": {}
+    "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\standard\\standard.csproj": {}
   },
   "projects": {
-    "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj": {
-      "version": "2.1.0.2",
+    "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\standard\\standard.csproj": {
+      "version": "2.1.0.4",
       "restore": {
-        "projectUniqueName": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj",
+        "projectUniqueName": "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\standard\\standard.csproj",
         "projectName": "maqdel.Infra.Standard",
-        "projectPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj",
+        "projectPath": "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\standard\\standard.csproj",
         "packagesPath": "C:\\Users\\mario.quilantan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\obj\\",
+        "outputPath": "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\standard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
