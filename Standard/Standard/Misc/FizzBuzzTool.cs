@@ -18,25 +18,7 @@ namespace maqdel.Infra.Misc
         List<int> _numbers = new List<int>();
 
         List<DivisorToken> _divisorTokens = new List<DivisorToken>();
-
-        private List<DivisorToken> ClassicTokens()
-        {
-            _logger.Info("");
-            return new List<DivisorToken>()
-            {
-                new DivisorToken
-                {
-                    Divisor = 3,
-                    Token = "Fizz"
-                },
-                new DivisorToken
-                {
-                    Divisor = 5,
-                    Token = "Buzz"
-                },
-            };
-        }
-        
+                
         private List<string> GenerateFizzBuzz(List<int> numbers, List<DivisorToken> divisorTokenDtos)
         {
             _logger.Info("");
@@ -89,6 +71,24 @@ namespace maqdel.Infra.Misc
                 throw; 
             }                                     
             return answer;
+        }
+
+        public List<DivisorToken> ClassicTokens()
+        {
+            _logger.Info("");
+            return new List<DivisorToken>()
+            {
+                new DivisorToken
+                {
+                    Divisor = 3,
+                    Token = "Fizz"
+                },
+                new DivisorToken
+                {
+                    Divisor = 5,
+                    Token = "Buzz"
+                },
+            };
         }
 
         public List<string> Classic()

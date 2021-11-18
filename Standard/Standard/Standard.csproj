@@ -5,7 +5,7 @@
     <AssemblyName>maqdel.Infra.Standard</AssemblyName>
     <RootNamespace>maqdel.Infra</RootNamespace>
 
-    <Version>2.1.0.4</Version>
+    <Version>2.1.0.5</Version>
 
     <Product>maqdel.Infra.Standard</Product>
     <Title>maqdel.Infra.Standard</Title>
@@ -17,8 +17,9 @@
     Tools:
     Infra.IO.CSVFileTool
     Infra.IO.FileRiderTool
+    Infra.Misc.FizzBuzzTool
     Infra.Net.NetworkTracerTool
-    Infra.Net.WebRequestTool
+    Infra.Net.WebRequestTool    
 
     Helpers:
     Infra.Diagnostics.DiagnosticsHelper        
@@ -39,9 +40,9 @@
     <PackageTags>.Net Standard 2.1</PackageTags>    
     <PackageReleaseNotes>
     Release:
-    Compatible with .NET 6.0
+    Infra.Misc.FizzBuzzTool
     </PackageReleaseNotes>
-
+    <PackageReadmeFile>README.md</PackageReadmeFile>   
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
             
@@ -51,7 +52,7 @@
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.12" />
-    <None Include="docs\README.md" Pack="True" PackPath="\" />
+    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
     <None Include="licenses\LICENSE.txt" Pack="true" PackagePath="LICENSE.txt" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>

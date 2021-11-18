@@ -13,6 +13,7 @@ Objects, Tools, and Helpers for .NET Development
 - Tools
   - Infra.IO.CSVFileTool
   - Infra.IO.FileRiderTool
+  - Infra.Misc.FizzBuzzTool
   - Infra.Net.NetworkTracerTool
   - Infra.Net.WebRequestTool
 
