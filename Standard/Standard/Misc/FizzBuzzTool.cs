@@ -9,15 +9,15 @@ using log4net;
 namespace maqdel.Infra.Misc
 {
     /// <summary>
-    /// 
+    /// Provides methods to generate the FizzBuzz results
     /// </summary>
-    public class FizzBuzzTool
+    public class FizzBuzzTool : IFizzBuzzTool
     {
         private readonly ILog _logger = LogManager.GetLogger(typeof(FizzBuzzTool));
 
-        List<int> _numbers = new List<int>();
+        private List<int> _numbers = new List<int>();
 
-        List<DivisorToken> _divisorTokens = new List<DivisorToken>();
+        private List<DivisorToken> _divisorTokens = new List<DivisorToken>();
                 
         private List<string> GenerateFizzBuzz(List<int> numbers, List<DivisorToken> divisorTokenDtos)
         {
@@ -97,16 +97,16 @@ namespace maqdel.Infra.Misc
             return GenerateFizzBuzz(SetNumbersRange(1, 100), ClassicTokens());
         }
 
-        public List<string> CustomByRange(int Start, int End, List<DivisorToken> DivisorTokenDtos)
+        public List<string> CustomByRange(int Start, int End, List<DivisorToken> DivisorTokens)
         {
             _logger.Info("CustomByRange");
-            return GenerateFizzBuzz(SetNumbersRange(Start, End), DivisorTokenDtos);
+            return GenerateFizzBuzz(SetNumbersRange(Start, End), DivisorTokens);
         }
         
-        public List<string> CustomSet(List<int> Numbers, List<DivisorToken> DivisorTokenDtos)
+        public List<string> CustomSet(List<int> Numbers, List<DivisorToken> DivisorTokens)
         {
             _logger.Info("CustomSet");
-            return GenerateFizzBuzz(Numbers, DivisorTokenDtos);
+            return GenerateFizzBuzz(Numbers, DivisorTokens);
         }
     }
 }

@@ -22,9 +22,9 @@ namespace maqdel.Tests.Infra.Misc
             var fizzBuzz = fizzBuzzTool.Classic();
 
             fizzBuzz.Count.ShouldBe(100);
-            fizzBuzz.Contains("Fizz");
-            fizzBuzz.Contains("Buzz");
-            fizzBuzz.Contains("FizzBuzz");
+            fizzBuzz.Contains("Fizz").ShouldBeTrue();
+            fizzBuzz.Contains("Buzz").ShouldBeTrue();
+            fizzBuzz.Contains("FizzBuzz").ShouldBeTrue();
         }
 
         [Test]
@@ -34,9 +34,9 @@ namespace maqdel.Tests.Infra.Misc
             var fizzBuzz = fizzBuzzTool.CustomByRange(101, 1000, fizzBuzzTool.ClassicTokens());
 
             fizzBuzz.Count.ShouldBe(900);
-            fizzBuzz.Contains("Fizz");
-            fizzBuzz.Contains("Buzz");
-            fizzBuzz.Contains("FizzBuzz");
+            fizzBuzz.Contains("Fizz").ShouldBeTrue();
+            fizzBuzz.Contains("Buzz").ShouldBeTrue();
+            fizzBuzz.Contains("FizzBuzz").ShouldBeTrue();
         }
 
         [Test]
@@ -59,9 +59,9 @@ namespace maqdel.Tests.Infra.Misc
             var fizzBuzz = fizzBuzzTool.CustomByRange(1, 100, divisorTokens);
 
             fizzBuzz.Count.ShouldBe(100);
-            fizzBuzz.Contains("ABC");
-            fizzBuzz.Contains("123");
-            fizzBuzz.Contains("ABC123");
+            fizzBuzz.Contains("ABC").ShouldBeTrue();
+            fizzBuzz.Contains("123").ShouldBeTrue();
+            fizzBuzz.Contains("ABC123").ShouldBeTrue();
         }
 
         [Test]

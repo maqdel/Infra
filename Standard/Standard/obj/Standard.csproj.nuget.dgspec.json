@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj": {
-      "version": "2.1.0.5",
+      "version": "2.1.0.7",
       "restore": {
         "projectUniqueName": "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj",
         "projectName": "maqdel.Infra.Standard",
@@ -57,6 +57,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "log4net": {
               "target": "Package",

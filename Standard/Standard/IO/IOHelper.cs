@@ -252,6 +252,30 @@ namespace maqdel.Infra.IO
             return answer;
         } 
 
+
+        /// <summary>
+        /// Convert stream to base64
+        /// </summary>
+        /// <param name="stream"></param>
+        /// <returns></returns>
+        public static string StreamToBase64(Stream stream)
+        {
+            _logger.Info("StreamToBase64");
+            string answer;
+            try {
+                using (var memoryStream = new MemoryStream())
+                {
+                    byte[] array = ((MemoryStream)stream).ToArray();
+                    answer = Convert.ToBase64String(array);
+                }
+            }
+            catch (Exception ex) {
+                _logger.Error("StreamToBase64", ex);
+                answer = "";
+            }
+            return answer;
+        }
+
         /*         /// <summary>
                 /// Get an image from a byte array
                 /// </summary>

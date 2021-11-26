@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vVZNRWl95w/D0AAt+VKjvI0TOEGz1YhHz5bxpPMjsGdmlgn2zFYK9W1lOXxqkhaT7EnNK1gW19eUALTU13QzuQ==",
+  "dgSpecHash": "osuFmY3dW+I3ilszpXprYaNEwLXwa2G984sgb91nYs5TsmDlt7K8kTK4gzm7h2kEwpbZ5t2nrvFp2i5gfxo3Yw==",
   "success": true,
   "projectFilePath": "C:\\Git\\VSC_Infra_Standard_2_1_b\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",

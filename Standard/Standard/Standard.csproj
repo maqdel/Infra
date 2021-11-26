@@ -5,29 +5,14 @@
     <AssemblyName>maqdel.Infra.Standard</AssemblyName>
     <RootNamespace>maqdel.Infra</RootNamespace>
 
-    <Version>2.1.0.5</Version>
+    <Version>2.1.0.7</Version>
 
     <Product>maqdel.Infra.Standard</Product>
     <Title>maqdel.Infra.Standard</Title>
     <Description>
     Objects, Tools, and Helpers for .NET Development
-
+    
     Compatible with: .NET 6.0/.NET 5.0/.NET Core 3.0/.NET Standard 2.1
-
-    Tools:
-    Infra.IO.CSVFileTool
-    Infra.IO.FileRiderTool
-    Infra.Misc.FizzBuzzTool
-    Infra.Net.NetworkTracerTool
-    Infra.Net.WebRequestTool    
-
-    Helpers:
-    Infra.Diagnostics.DiagnosticsHelper        
-    Infra.IO.IOHelper
-    Infra.Net.NetHelper    
-    Infra.Security.SecurityHelper
-    Infra.ConsoleHelper
-    Infra.InfraHelper    
     </Description>
     <Authors>Mario Quilantan</Authors>
     <Company>maqdel</Company>
@@ -40,7 +25,8 @@
     <PackageTags>.Net Standard 2.1</PackageTags>    
     <PackageReleaseNotes>
     Release:
-    Infra.Misc.FizzBuzzTool
+    Add DrawingHelper.ImageToByteArray
+    Add IOHelper.StreamToBase64
     </PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>   
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -52,9 +38,10 @@
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.12" />
-    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+    <None Include="docs\README.md" Pack="true" PackagePath="\" />
     <None Include="licenses\LICENSE.txt" Pack="true" PackagePath="LICENSE.txt" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
   </ItemGroup>
 
 </Project>

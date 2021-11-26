@@ -13,7 +13,7 @@ namespace maqdel.Infra.Net
     /// <summary>
     /// Provides methods to Get and Post to a web API.
     /// </summary>
-    public class WebRequestTool
+    public class WebRequestTool : IWebRequestTool
     {
         private readonly ILog _logger = LogManager.GetLogger(typeof(WebRequestTool));
 
