@@ -7,13 +7,13 @@ C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug
 C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.pdb
 C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\maqdel.Infra.Standard.dll
 C:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\maqdel.Infra.Standard.pdb
-C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.deps.json
-C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.dll
-C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.pdb
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\Standard.csproj.AssemblyReference.cache
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\Standard.GeneratedMSBuildEditorConfig.editorconfig
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\Standard.AssemblyInfoInputs.cache
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\Standard.AssemblyInfo.cs
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\Standard.csproj.CoreCompileInputs.cache
+C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.deps.json
+C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.dll
+C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.pdb
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\maqdel.Infra.Standard.dll
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\maqdel.Infra.Standard.pdb

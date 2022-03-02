@@ -1958,7 +1958,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "maqdel.Infra.Standard/2.1.0.7": {
+      "maqdel.Infra.Standard/2.1.0.12": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
@@ -6946,7 +6946,7 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "maqdel.Infra.Standard/2.1.0.7": {
+    "maqdel.Infra.Standard/2.1.0.12": {
       "type": "project",
       "path": "../Standard/Standard.csproj",
       "msbuildProject": "../Standard/Standard.csproj"
@@ -6958,12 +6958,14 @@
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
       "Shouldly >= 4.0.3",
-      "maqdel.Infra.Standard >= 2.1.0.7"
+      "maqdel.Infra.Standard >= 2.1.0.12"
     ]
   },
   "packageFolders": {
     "C:\\Users\\mario.quilantan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -6978,6 +6980,8 @@
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
@@ -6985,6 +6989,8 @@
         "C:\\Users\\mario.quilantan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6994,6 +7000,7 @@
       "sources": {
         "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
         "http://10.130.0.16:8888/guestAuth/app/nuget/v1/FeedService.svc/": {},
@@ -7053,7 +7060,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

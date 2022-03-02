@@ -39,6 +39,22 @@ namespace maqdel.Infra.Drawing
 
         }
 
+/*         public static System.Drawing.Bitmap ToImage(byte[] ByteArray)
+        {
+            _logger.Info("ToImage");
+            try
+            {
+                MemoryStream ms = new MemoryStream(ByteArray);
+                System.Drawing.Bitmap returnImage = System.Drawing.Bitmap.FromStream(ms);
+                return returnImage;
+            }
+            catch (Exception Ex)
+            {
+                throw (Ex);
+            }
+
+        } */
+
 
         /* 
         public static void Example()

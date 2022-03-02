@@ -1,5 +1,7 @@
 using NUnit.Framework;
 
+using System.Collections.Generic;
+
 using Shouldly;
 
 using maqdel.Infra;
@@ -78,6 +80,30 @@ namespace maqdel.Tests.Infra
             var result = maqdel.Infra.InfraHelper.ConvertToInt(null);
 
             result.ShouldBe(-1);
+        }
+
+        [Test]
+        public void ConvertListToString_list_string()
+        {
+            List<string> value = new List<string>();
+            value.Add("a");
+            value.Add("b");
+            value.Add("c");
+            var result = maqdel.Infra.InfraHelper.ConvertListToString(value);
+
+            result.ShouldBe("a, b, c");
+        }
+
+        [Test]
+        public void ConvertListToString_list_int()
+        {
+            List<int> value = new List<int>();
+            value.Add(1);
+            value.Add(2);
+            value.Add(3);
+            var result = maqdel.Infra.InfraHelper.ConvertListToString(value);
+
+            result.ShouldBe("1, 2, 3");
         }
     }
 }

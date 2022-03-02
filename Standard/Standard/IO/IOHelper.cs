@@ -207,9 +207,9 @@ namespace maqdel.Infra.IO
         /// </summary>
         /// <param name="FileName">A valid file path</param>
         /// <returns>A byte array</returns>
-        public static byte[] ToByteArray(string FileName)        
+        public static byte[] FileToByteArray(string FileName)        
         {
-            _logger.Info("ToByteArray");
+            _logger.Info("FileToByteArray");
             Byte[] answer;
             try
             {
@@ -225,7 +225,7 @@ namespace maqdel.Infra.IO
             }
             catch (Exception ex)
             {
-                _logger.Error("ToByteArray, Exception:", ex);
+                _logger.Error("FileToByteArray, Exception:", ex);
                 answer = null;
             }
             return answer;
@@ -252,6 +252,25 @@ namespace maqdel.Infra.IO
             return answer;
         } 
 
+        /// <summary>
+        /// Save a string to file
+        /// </summary>
+        /// <param name="FileNameFullPath">Nombre del archivo</param>
+        /// <param name="FileText">Texto a guardar</param>
+        public static void SaveTextFile(string FileNameFullPath, string FileText)
+        {
+            _logger.Info("SaveTextFile");
+            try
+            {
+                TextWriter tw = new StreamWriter(FileNameFullPath);
+                tw.Write(FileText);
+                tw.Close();
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("SaveTextFile, Exception:", ex);
+            }
+        }
 
         /// <summary>
         /// Convert stream to base64
@@ -272,6 +291,27 @@ namespace maqdel.Infra.IO
             catch (Exception ex) {
                 _logger.Error("StreamToBase64", ex);
                 answer = "";
+            }
+            return answer;
+        }
+
+        /// <summary>
+        /// Get StreamReader from filenae
+        /// </summary>
+        /// <param name="FileName">Nombre del archivo</param>
+        /// <returns>StreamReader</returns>
+        public static StreamReader OpenFileToStreamReader(string FileName)
+        {
+            _logger.Info("OpenFileToStreamReader");
+            StreamReader answer = null;
+            try
+            {
+                answer = new StreamReader(FileName);
+                
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("OpenFileToStreamReader", ex);
             }
             return answer;
         }

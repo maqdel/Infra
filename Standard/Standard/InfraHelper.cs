@@ -43,7 +43,7 @@ namespace maqdel.Infra
             }
             return answer;
         }
-
+   
         /// <summary>
         /// Convert a boolean value to a string "Yes/No"
         /// </summary>
@@ -142,9 +142,11 @@ namespace maqdel.Infra
             try
             {
                 StringBuilder stringBuilder = new StringBuilder("");
+                stringBuilder.Append("'");
                 stringBuilder.Append(DateTime.Year.ToString());
                 stringBuilder.Append(FillString(DateTime.Month.ToString(), "0", 2, 1));
                 stringBuilder.Append(FillString(DateTime.Day.ToString(), "0", 2, 1));
+                stringBuilder.Append("'");
                 answer = stringBuilder.ToString();
             }
             catch (Exception ex)
@@ -178,6 +180,94 @@ namespace maqdel.Infra
             catch (Exception ex)
             {
                 _logger.Error("ConvertToSQLServerTime, Exception:", ex);
+            }
+            return answer;
+        }
+
+        /// <summary>
+        /// Convert a datetime value to a string "yyyy-mm-dd hh:mm:ss"
+        /// </summary>
+        /// <param name="DateTime"></param>
+        /// <returns></returns>
+        public static string ConvertToUniversalDateTime(DateTime DateTime)
+        {
+            _logger.Info("ConvertToUniversalDateTime");
+            string answer = "";
+            try
+            {
+                StringBuilder stringBuilder = new StringBuilder("");
+                stringBuilder.Append(DateTime.Year.ToString());
+                stringBuilder.Append("-");
+                stringBuilder.Append(FillString(DateTime.Month.ToString(), "0", 2, 1));
+                stringBuilder.Append("-");
+                stringBuilder.Append(FillString(DateTime.Day.ToString(), "0", 2, 1));
+                stringBuilder.Append(" ");
+                stringBuilder.Append(FillString(DateTime.Hour.ToString(), "0", 2, 1));
+                stringBuilder.Append(":");
+                stringBuilder.Append(FillString(DateTime.Minute.ToString(), "0", 2, 1));
+                stringBuilder.Append(":");
+                stringBuilder.Append(FillString(DateTime.Second.ToString(), "0", 2, 1));
+                stringBuilder.Append(".");
+                stringBuilder.Append(FillString(DateTime.Millisecond.ToString(), "0", 3, 1));
+                answer = stringBuilder.ToString();
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("ConvertToUniversalDateTime, Exception:", ex);
+            }
+            return answer;
+        }
+
+        /// <summary>
+        /// Convert a datetime value to a string "yyyy-mm-dd"
+        /// </summary>
+        /// <param name="DateTime"></param>
+        /// <returns></returns>
+        public static string ConvertToUniversalDate(DateTime DateTime)
+        {
+            _logger.Info("ConvertToUniversalDate");
+            string answer = "";
+            try
+            {
+                StringBuilder stringBuilder = new StringBuilder("");
+                stringBuilder.Append(DateTime.Year.ToString());
+                stringBuilder.Append("-");
+                stringBuilder.Append(FillString(DateTime.Month.ToString(), "0", 2, 1));
+                stringBuilder.Append("-");
+                stringBuilder.Append(FillString(DateTime.Day.ToString(), "0", 2, 1));
+                answer = stringBuilder.ToString();
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("ConvertToUniversalDate, Exception:", ex);
+            }
+            return answer;
+        }
+
+        /// <summary>
+        /// Convert a datetime value to a string "hh:mm:ss"
+        /// </summary>
+        /// <param name="DateTime"></param>
+        /// <returns></returns>
+        public static string ConvertToUniversalTime(DateTime DateTime)
+        {
+            _logger.Info("ConvertToUniversalTime");
+            string answer = "";
+            try
+            {
+                StringBuilder stringBuilder = new StringBuilder("");
+                stringBuilder.Append(FillString(DateTime.Hour.ToString(), "0", 2, 1));
+                stringBuilder.Append(":");
+                stringBuilder.Append(FillString(DateTime.Minute.ToString(), "0", 2, 1));
+                stringBuilder.Append(":");
+                stringBuilder.Append(FillString(DateTime.Second.ToString(), "0", 2, 1));
+                stringBuilder.Append(".");
+                stringBuilder.Append(FillString(DateTime.Millisecond.ToString(), "0", 3, 1));
+                answer = stringBuilder.ToString();
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("ConvertToUniversalTime, Exception:", ex);
             }
             return answer;
         }
@@ -669,6 +759,53 @@ namespace maqdel.Infra
             }
             return answer;
         }
+        
+        /// <summary>
+        /// Convert a string list to string
+        /// </summary>
+        /// <param name="ItemsList"></param>
+        /// <returns></returns>
+        public static string ConvertListToString(List<string> ItemsList){
+            _logger.Info("ConvertListToString");
+            string answer = "";
+            try{
+                var sb = new StringBuilder();
+                foreach(var item in ItemsList){
+                    sb.Append(item.ToString() + ", ");
+                }
+                answer = sb.ToString();
+                answer = answer.Substring(0, answer.Length - 2);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("ConvertListToString, Exception:", ex);
+            }
+            return answer;
+        } 
+   
+        /// <summary>
+        /// Convert a int list to string
+        /// </summary>
+        /// <param name="ItemsList"></param>
+        /// <returns></returns>
+        public static string ConvertListToString(List<int> ItemsList){
+            _logger.Info("ConvertListToString");
+            string answer = "";
+            try{
+                var sb = new StringBuilder();
+                foreach(var item in ItemsList){
+                    sb.Append(item.ToString() + ", ");
+                }
+                answer = sb.ToString();
+                answer = answer.Substring(0, answer.Length - 2);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("ConvertListToString, Exception:", ex);
+            }
+            return answer;
+        } 
+        
         /* 
         public static void Example()
         {
