@@ -5,7 +5,7 @@
     <AssemblyName>maqdel.Infra.Standard</AssemblyName>
     <RootNamespace>maqdel.Infra</RootNamespace>
 
-    <Version>2.1.0.12</Version>
+    <Version>2.1.0.16</Version>
 
     <Product>maqdel.Infra.Standard</Product>
     <Title>maqdel.Infra.Standard</Title>
@@ -25,15 +25,13 @@
     <PackageTags>.Net Standard 2.1</PackageTags>    
     <PackageReleaseNotes>
     Release:
-
-    Fix ConsoleHelper.WriteWindow - Write a window in the console with body (avoid transparencies)
-    New ConsoleHelper.WriteWindow - Write a window in the console with text with TextColor
-    New ConsoleHelper.WriteWindow - Write a window in the console with text with TextColor and BackgroundColor
-    New ConsoleHelper.WriteWindow - Write a window in the console with body and TextColor
-    New ConsoleHelper.WriteWindow - Write a window in the console with body and TextColor and BackgroundColor
-    New ConsoleHelper.WriteLines - Write a set of lines in the console
-    New ConsoleHelper.WriteLines - Write a set of lines in the console with TextColor
-    New ConsoleHelper.WriteLines - Write a set of lines in the console with TextColor and BackgroundColor
+    
+    New Extensions.CharacterCount - Get character count
+    New Extensions.ToCapitalize - Capitalize string
+    New Extensions.ToUniversalDateTime - To universal datetime string
+    New Extensions.ToUniversalDate - To universal date string
+    New Extensions.ToUniversalTime - To universal time string
+    New Extensions.WordCount - Get word count
     
     </PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>   

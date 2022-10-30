@@ -1,13 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\mario.quilantan\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\mario.quilantan\\.nuget\\packages",
-      "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-      "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\maqde\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\maqde\\.nuget\\packages"
     ]
   }
 }

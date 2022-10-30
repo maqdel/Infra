@@ -17,3 +17,13 @@ C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\bin\Deb
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.pdb
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\maqdel.Infra.Standard.dll
 C:\Git\VSC_Infra_Standard_2_1_b\VSC_Infra_Standard_2_1\standard\Standard\obj\Debug\netstandard2.1\maqdel.Infra.Standard.pdb
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.deps.json
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.dll
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.pdb
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\obj\Debug\netstandard2.1\Standard.csproj.AssemblyReference.cache
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\obj\Debug\netstandard2.1\Standard.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\obj\Debug\netstandard2.1\Standard.AssemblyInfoInputs.cache
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\obj\Debug\netstandard2.1\Standard.AssemblyInfo.cs
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\obj\Debug\netstandard2.1\Standard.csproj.CoreCompileInputs.cache
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\obj\Debug\netstandard2.1\maqdel.Infra.Standard.dll
+D:\Git\VSC_Infra_Standard_2_1\VSC_Infra_Standard_2_1\Standard\Standard\obj\Debug\netstandard2.1\maqdel.Infra.Standard.pdb

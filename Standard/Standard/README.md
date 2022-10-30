@@ -10,6 +10,8 @@ Objects, Tools, and Helpers for .NET Development
  
 ## Features
 
+- Objects
+  - Infra.Extensions
 - Tools
   - Infra.IO.CSVFileTool
   - Infra.IO.FileRiderTool

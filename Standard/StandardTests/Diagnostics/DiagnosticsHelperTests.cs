@@ -18,8 +18,8 @@ namespace maqdel.Tests.Infra.Diagnostics
         {
             var result = DiagnosticsHelper.GetAssemblyFileVersionInfo(Assembly.GetExecutingAssembly());
 
-            result.CompanyName.ShouldBe("standardtests");
-            result.ProductName.ShouldBe("standardtests");
+            result.CompanyName.ShouldBe("StandardTests");
+            result.ProductName.ShouldBe("StandardTests");
             result.ProductVersion.ShouldBe("1.0.0");
         }
 
@@ -28,7 +28,7 @@ namespace maqdel.Tests.Infra.Diagnostics
         {
             var result = DiagnosticsHelper.GetAssemblyProductFullName(Assembly.GetExecutingAssembly());
 
-            result.ShouldBe("standardtests 1.0.0");            
+            result.ShouldBe("StandardTests 1.0.0");            
         }
 
         [Test]
@@ -36,7 +36,7 @@ namespace maqdel.Tests.Infra.Diagnostics
         {
             var result = DiagnosticsHelper.GetAssemblyProductName(Assembly.GetExecutingAssembly());
 
-            result.ShouldBe("standardtests");
+            result.ShouldBe("StandardTests");
         }
 
         [Test]
@@ -52,7 +52,7 @@ namespace maqdel.Tests.Infra.Diagnostics
         {
             var result = DiagnosticsHelper.GetAssemblyCompany(Assembly.GetExecutingAssembly());
 
-            result.ShouldBe("standardtests");
+            result.ShouldBe("StandardTests");
         }
     }
 }
