@@ -7229,11 +7229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\standardtests.csproj",
+      "projectUniqueName": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj",
       "projectName": "standardtests",
-      "projectPath": "D:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\standardtests.csproj",
+      "projectPath": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj",
       "packagesPath": "C:\\Users\\maqde\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\obj\\",
+      "outputPath": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maqde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7250,8 +7250,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj": {
-              "projectPath": "D:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\Standard\\Standard.csproj"
+            "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj": {
+              "projectPath": "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj"
             }
           }
         }
