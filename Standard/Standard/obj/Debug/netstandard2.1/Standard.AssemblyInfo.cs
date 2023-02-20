@@ -12,8 +12,8 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("maqdel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("\r\n    Objects, Tools, and Helpers for .NET Development\r\n    \r\n    Compatible with" +
-    ": .NET 6.0/.NET 5.0/.NET Core 3.0/.NET Standard 2.1\r\n    ")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("\n    Objects, Tools, and Helpers for .NET Development\n    \n    Compatible with: ." +
+    "NET 6.0/.NET 5.0/.NET Core 3.0/.NET Standard 2.1\n    ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.16")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0.16")]
 [assembly: System.Reflection.AssemblyProductAttribute("maqdel.Infra.Standard")]
