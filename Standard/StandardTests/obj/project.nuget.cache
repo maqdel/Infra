@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MbJpYAtQ0xb8FeOQt+SVNPuaBPS8U6sew7Y+wZRuLinMqG5IZSUXEzLbUvdIwputdrvMnOT912cqCxZyZQugZQ==",
+  "dgSpecHash": "SLrFi/gkzQENORpAD48NsP2BeB4tZx4A03ZyXykGWDwP6jJ6NYK/7SJevzP92hnhdnNCUgcGX/OXPdRDJdGBKw==",
   "success": true,
-  "projectFilePath": "D:\\Git\\VSC_Infra_Standard_2_1\\VSC_Infra_Standard_2_1\\standard\\standardtests\\standardtests.csproj",
+  "projectFilePath": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maqde\\.nuget\\packages\\diffengine\\6.4.9\\diffengine.6.4.9.nupkg.sha512",
     "C:\\Users\\maqde\\.nuget\\packages\\emptyfiles\\2.3.3\\emptyfiles.2.3.3.nupkg.sha512",
