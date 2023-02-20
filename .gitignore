@@ -243,3 +243,7 @@ buildreports
 vs_buildtools.exe
 dotnetfx35.exe
 *.exe
+
+# Ignore any files in /bin and /obj Folders
+**/bin/*
+**/obj/*
