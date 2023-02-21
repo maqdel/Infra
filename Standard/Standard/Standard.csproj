@@ -5,41 +5,40 @@
     <AssemblyName>maqdel.Infra.Standard</AssemblyName>
     <RootNamespace>maqdel.Infra</RootNamespace>
 
-    <Version>2.1.0.16</Version>
+    <Version>2.1.0.17</Version>
 
     <Product>maqdel.Infra.Standard</Product>
     <Title>maqdel.Infra.Standard</Title>
     <Description>
     Objects, Tools, and Helpers for .NET Development
-    
+
     Compatible with: .NET 6.0/.NET 5.0/.NET Core 3.0/.NET Standard 2.1
     </Description>
     <Authors>Mario Quilantan</Authors>
     <Company>maqdel</Company>
-    <Copyright></Copyright>    
+    <Copyright></Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <RepositoryUrl>https://github.com/maqdel/VSC_Infra_Standard_2_1</RepositoryUrl>
-    
+
     <PackageId>maqdel.Infra.Standard</PackageId>
     <PackageProjectUrl>https://maqdel.wordpress.com/maqdel-infra/</PackageProjectUrl>
-    <PackageTags>.Net Standard 2.1</PackageTags>    
+    <PackageTags>.Net Standard 2.1</PackageTags>
     <PackageReleaseNotes>
     Release:
-    
-    New Extensions.CharacterCount - Get character count
-    New Extensions.ToCapitalize - Capitalize string
-    New Extensions.ToUniversalDateTime - To universal datetime string
-    New Extensions.ToUniversalDate - To universal date string
-    New Extensions.ToUniversalTime - To universal time string
-    New Extensions.WordCount - Get word count
+
+    New IO.GetDrivesInfo - Get a list of Drives Info
+    New IO.GetDrivesNames - Get a list of drives names
+    New IO.GetPathDirectories - Get a list of directories on path
+    New IO.GetPathFiles - Get a list of files on path
+    New IO.GetPathAllFiles - Get list of files in path and subfolder
     
     </PackageReleaseNotes>
-    <PackageReadmeFile>README.md</PackageReadmeFile>   
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-            
+
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        
+
   </PropertyGroup>
 
   <ItemGroup>

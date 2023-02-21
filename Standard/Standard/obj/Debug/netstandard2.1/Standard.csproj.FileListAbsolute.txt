@@ -37,6 +37,16 @@ D:/Git/VSC_Infra_Standard_2_1/VSC_Infra_Standard_2_1/Standard/Standard/obj/Debug
 /workspaces/VSC_Infra_Standard_2_1/Standard/Standard/obj/Debug/netstandard2.1/Standard.csproj.CoreCompileInputs.cache
 /workspaces/VSC_Infra_Standard_2_1/Standard/Standard/obj/Debug/netstandard2.1/maqdel.Infra.Standard.dll
 /workspaces/VSC_Infra_Standard_2_1/Standard/Standard/obj/Debug/netstandard2.1/maqdel.Infra.Standard.pdb
+/workspaces/Infra/Standard/Standard/bin/Debug/netstandard2.1/maqdel.Infra.Standard.deps.json
+/workspaces/Infra/Standard/Standard/bin/Debug/netstandard2.1/maqdel.Infra.Standard.dll
+/workspaces/Infra/Standard/Standard/bin/Debug/netstandard2.1/maqdel.Infra.Standard.pdb
+/workspaces/Infra/Standard/Standard/obj/Debug/netstandard2.1/Standard.csproj.AssemblyReference.cache
+/workspaces/Infra/Standard/Standard/obj/Debug/netstandard2.1/Standard.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Infra/Standard/Standard/obj/Debug/netstandard2.1/Standard.AssemblyInfoInputs.cache
+/workspaces/Infra/Standard/Standard/obj/Debug/netstandard2.1/Standard.AssemblyInfo.cs
+/workspaces/Infra/Standard/Standard/obj/Debug/netstandard2.1/Standard.csproj.CoreCompileInputs.cache
+/workspaces/Infra/Standard/Standard/obj/Debug/netstandard2.1/maqdel.Infra.Standard.dll
+/workspaces/Infra/Standard/Standard/obj/Debug/netstandard2.1/maqdel.Infra.Standard.pdb
 D:\Git\Infra\Infra\Standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.deps.json
 D:\Git\Infra\Infra\Standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.dll
 D:\Git\Infra\Infra\Standard\Standard\bin\Debug\netstandard2.1\maqdel.Infra.Standard.pdb
