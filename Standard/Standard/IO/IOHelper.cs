@@ -207,7 +207,7 @@ namespace maqdel.Infra.IO
         /// </summary>
         /// <param name="FileName">A valid file path</param>
         /// <returns>A byte array</returns>
-        public static byte[] FileToByteArray(string FileName)        
+        public static byte[] FileToByteArray(string FileName)
         {
             _logger.Info("FileToByteArray");
             Byte[] answer;
@@ -232,7 +232,7 @@ namespace maqdel.Infra.IO
         }
 
         public static string OpenTextFile(string FilePath)
-        {            
+        {
             _logger.Info("OpenTextFile");
             string answer = "";
             try
@@ -241,16 +241,17 @@ namespace maqdel.Infra.IO
                 TextReader textReader = new StreamReader(FilePath);
                 texFileData = textReader.ReadToEnd();
                 textReader.Close();
-                if(texFileData.Length > 0){
+                if (texFileData.Length > 0)
+                {
                     answer = texFileData;
-                }                
+                }
             }
             catch (Exception ex)
             {
                 _logger.Error("OpenTextFile, Exception:", ex);
             }
             return answer;
-        } 
+        }
 
         /// <summary>
         /// Save a string to file
@@ -281,14 +282,16 @@ namespace maqdel.Infra.IO
         {
             _logger.Info("StreamToBase64");
             string answer;
-            try {
+            try
+            {
                 using (var memoryStream = new MemoryStream())
                 {
                     byte[] array = ((MemoryStream)stream).ToArray();
                     answer = Convert.ToBase64String(array);
                 }
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 _logger.Error("StreamToBase64", ex);
                 answer = "";
             }
@@ -307,13 +310,128 @@ namespace maqdel.Infra.IO
             try
             {
                 answer = new StreamReader(FileName);
-                
+
             }
             catch (Exception ex)
             {
                 _logger.Error("OpenFileToStreamReader", ex);
             }
             return answer;
+        }
+
+        /// <summary>
+        /// Get a list of Drives Info
+        /// </summary>
+        /// <returns>List<DriveInfo></returns>
+        public static List<DriveInfo> GetDrivesInfo()
+        {
+            _logger.Info("GetDrivesNames");
+            List<DriveInfo> listDrivesInfo = new List<DriveInfo>();
+            try
+            {
+                listDrivesInfo = DriveInfo.GetDrives().ToList();
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("GetDrivesInfo, Exception:", ex);
+            }
+            return listDrivesInfo;
+        }
+
+        /// <summary>
+        /// Get a list of drives names
+        /// </summary>
+        /// <returns></returns>
+        public static List<string> GetDrivesNames()
+        {
+            _logger.Info("GetDrivesNames");
+            List<string> listDrives = new List<string>();
+            try
+            {
+                foreach (var driveInfo in GetDrivesInfo())
+                {
+                    listDrives.Add(driveInfo.Name);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("GetDrivesNames, Exception:", ex);
+            }
+            return listDrives;
+        }
+
+        /// <summary>
+        /// Get a list of directories on path
+        /// </summary>
+        /// <param name="Path"></param>
+        /// <returns></returns>
+        public static List<string> GetPathDirectories(string Path)
+        {
+            _logger.Info("GetPathDirectories");
+            List<string> listDirectories = new List<string>();
+            try
+            {
+                foreach (var directory in Directory.GetDirectories(Path))
+                {
+                    listDirectories.Add(directory);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("GetPathDirectories, Exception:", ex);
+            }
+            return listDirectories;
+        }
+
+        /// <summary>
+        /// Get a list of files on path
+        /// </summary>
+        /// <param name="Path"></param>
+        /// <returns>List<string></returns>
+        public static List<string> GetPathFiles(string Path)
+        {
+            _logger.Info("GetPathFiles");
+            List<string> listDirectories = new List<string>();
+            try
+            {
+                foreach (var directory in Directory.GetFiles(Path))
+                {
+                    listDirectories.Add(directory);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("GetPathFiles, Exception:", ex);
+            }
+            return listDirectories;
+        }
+
+        /// <summary>
+        /// Get list of files in path and subfolder
+        /// </summary>
+        /// <param name="Path"></param>
+        /// <returns>List<String></returns>
+        public static List<String> GetPathAllFiles(string Path)
+        {
+            _logger.Info("GetPathAllFiles");
+            List<String> listFiles = new List<String>();
+            try
+            {
+                foreach (string file in Directory.GetFiles(Path))
+                {
+                    listFiles.Add(file);
+                }
+                foreach (string directory in Directory.GetDirectories(Path))
+                {
+                    listFiles.AddRange(GetPathFiles(directory));
+                }
+            }
+            catch (System.Exception ex)
+            {
+                _logger.Error("GetPathAllFiles, Exception:", ex);
+            }
+
+            return listFiles;
         }
 
         /*         /// <summary>
@@ -359,19 +477,19 @@ namespace maqdel.Infra.IO
                 } */
 
 
-        /* 
+        /*
         public static void Example()
         {
             _logger.Info("");
             try
             {
-                
+
             }
             catch (Exception ex)
             {
                 _logger.Error(", Exception:", ex);
             }
-        } 
+        }
         */
     }
 }

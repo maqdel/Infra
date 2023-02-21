@@ -8,7 +8,7 @@ namespace maqdel.Infra
 {
     internal class Program
     {
-        private static maqdel.Infra.StandardConsole _standardConsole;
+        private static maqdel.Infra.StandardConsole _standardConsole = new StandardConsole();
 
         static void Main(string[] args)
         {

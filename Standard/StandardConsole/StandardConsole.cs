@@ -20,13 +20,13 @@ namespace maqdel.Infra
             //Console.Clear();
             //maqdel.Infra.ConsoleHelper.Cls(ConsoleColor.Green, ConsoleColor.Black);
             ConsoleHelper.Cls(ConsoleColor.Green, ConsoleColor.Black);
-            Console.WriteLine("Standard Console");
-            Console.WriteLine("");
-            //Console.WriteLine("Q - Play game (" + _cols.ToString() + "x" + _rows.ToString() + ")");{}
-            ///Console.WriteLine("W - Change");
-            //Console.WriteLine("E - ");
-            Console.WriteLine("");
-            Console.WriteLine("Press a key to execute, or ESC to end");
+            var options = new List<string>();
+            options.Add("Option 1");
+            options.Add("Option 2");
+            options.Add("Option 3");
+            options.Add("Option 4");
+            options.Add("Option 5");
+            ConsoleHelper.WriteWindow(1,1,50,"Standard Console 2.1",options,"Press a key to execute, or ESC to end");
         }
 
         public void StartConsole()
@@ -34,13 +34,27 @@ namespace maqdel.Infra
             _logger.Info("StartConsole");
             try
             {
-            ConsoleKeyInfo cki;
+
+                var xx = maqdel.Infra.IO.IOHelper.GetPathFiles(@"c:\");
+                Console.WriteLine("Count:" + xx.Count());
+                /*
+                foreach(var x in xx){
+                    Console.WriteLine(x);
+                }
+                */
+
+
+                /*
+                            ConsoleKeyInfo cki;
             MainMenu();
             do
             {
                 cki = Console.ReadKey();
                 Console.Write(" - You pressed ");
                 Console.WriteLine(cki.Key.ToString());
+
+
+
 
                 switch (cki.Key)
                 {
@@ -68,6 +82,7 @@ namespace maqdel.Infra
                 MainMenu();
 
             } while (cki.Key != ConsoleKey.Escape);
+                */
             }
             catch (Exception ex)
             {

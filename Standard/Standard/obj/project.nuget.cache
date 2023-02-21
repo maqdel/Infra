@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "HnWAizgtyhBlslUZxWc0BkNFwzzxFXx4bI/hGqYS8hzBH+N7n7V6YALjcUTJOKc/tcpw70zPdajydWB5+BjU9A==",
+  "dgSpecHash": "iBolg4EjRrmQWXgisoxTL94wcUJYa9wdk57OYl4HboCRCHNiKFKQ9GECAgQFItLI8NZaccMnqU5+Se8asmLHjw==",
   "success": true,
-  "projectFilePath": "/workspaces/Infra/Standard/Standard/Standard.csproj",
+  "projectFilePath": "D:\\Git\\Infra\\Infra\\Standard\\standard\\Standard.csproj",
   "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/log4net/2.0.12/log4net.2.0.12.nupkg.sha512",
-    "/home/codespace/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.configuration.configurationmanager/4.5.0/system.configuration.configurationmanager.4.5.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.security.accesscontrol/4.5.0/system.security.accesscontrol.4.5.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.security.permissions/4.5.0/system.security.permissions.4.5.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512"
+    "C:\\Users\\maqde\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\maqde\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
