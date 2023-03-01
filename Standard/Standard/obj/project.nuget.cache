@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iBolg4EjRrmQWXgisoxTL94wcUJYa9wdk57OYl4HboCRCHNiKFKQ9GECAgQFItLI8NZaccMnqU5+Se8asmLHjw==",
+  "dgSpecHash": "D5JZgJbLonnEMiI4EIpCUKpOrdSvZ7bVOaWWH2SUx2WBcSNXWQoi12F0JiCcY1UuFBPj3Wa9mgKSxl4GpbZ2kQ==",
   "success": true,
-  "projectFilePath": "D:\\Git\\Infra\\Infra\\Standard\\standard\\Standard.csproj",
+  "projectFilePath": "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maqde\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\maqde\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
