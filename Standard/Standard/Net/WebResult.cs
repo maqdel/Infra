@@ -13,7 +13,7 @@ namespace maqdel.Infra.Net
     public class WebResult<TResult>
     {
         /// <summary>
-        /// Creates an instance of the WebResult object 
+        /// Creates an instance of the WebResult object
         /// </summary>
         /// <param name="StatusCode"></param>
         /// <param name="Result"></param>
@@ -29,9 +29,23 @@ namespace maqdel.Infra.Net
         public HttpStatusCode StatusCode { get; }
 
         /// <summary>
+        /// Indicate if the Status is Ok
+        /// </summary>
+        public bool StatusOk {
+            get => this.StatusCode == HttpStatusCode.OK ? true : false;
+        }
+
+        /// <summary>
         /// The actual result (will only be valid if Status and decoding were successful, otherwise it'll be <c>default(TResult)</c>)
         /// </summary>
         /// <remarks>If serialization of the result was unsuccessful, <see cref="StatusCode"/> will be <c>HttpStatusCode.InternalServerError</c>.</remarks>
         public TResult Result { get; }
+
+        /// <summary>
+        /// Indicate if the result is not null
+        /// </summary>
+        public bool AsResult {
+            get => this.Result != null ? true : false;
+        }
     }
 }

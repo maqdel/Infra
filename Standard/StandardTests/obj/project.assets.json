@@ -2220,7 +2220,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "maqdel.Infra.Standard/2.1.0.16": {
+      "maqdel.Infra.Standard/2.1.0.17": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
@@ -7208,7 +7208,7 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "maqdel.Infra.Standard/2.1.0.16": {
+    "maqdel.Infra.Standard/2.1.0.17": {
       "type": "project",
       "path": "../Standard/Standard.csproj",
       "msbuildProject": "../Standard/Standard.csproj"
@@ -7220,7 +7220,7 @@
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
       "Shouldly >= 4.0.3",
-      "maqdel.Infra.Standard >= 2.1.0.16"
+      "maqdel.Infra.Standard >= 2.1.0.17"
     ]
   },
   "packageFolders": {
@@ -7229,11 +7229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj",
-      "projectName": "standardtests",
-      "projectPath": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj",
+      "projectUniqueName": "D:\\Git\\Infra\\Infra\\standard\\StandardTests\\StandardTests.csproj",
+      "projectName": "StandardTests",
+      "projectPath": "D:\\Git\\Infra\\Infra\\standard\\StandardTests\\StandardTests.csproj",
       "packagesPath": "C:\\Users\\maqde\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\obj\\",
+      "outputPath": "D:\\Git\\Infra\\Infra\\standard\\StandardTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maqde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7250,8 +7250,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj": {
-              "projectPath": "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj"
+            "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj": {
+              "projectPath": "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj"
             }
           }
         }

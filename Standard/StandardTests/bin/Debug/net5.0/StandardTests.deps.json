@@ -6,16 +6,16 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "standardtests/1.0.0": {
+      "StandardTests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.16.1",
           "Shouldly": "4.0.3",
-          "maqdel.Infra.Standard": "2.1.0.16"
+          "maqdel.Infra.Standard": "2.1.0.17"
         },
         "runtime": {
-          "standardtests.dll": {}
+          "StandardTests.dll": {}
         }
       },
       "DiffEngine/6.4.9": {
@@ -1522,7 +1522,7 @@
           }
         }
       },
-      "maqdel.Infra.Standard/2.1.0.16": {
+      "maqdel.Infra.Standard/2.1.0.17": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.Drawing.Common": "6.0.0",
@@ -1535,7 +1535,7 @@
     }
   },
   "libraries": {
-    "standardtests/1.0.0": {
+    "StandardTests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2345,7 +2345,7 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "maqdel.Infra.Standard/2.1.0.16": {
+    "maqdel.Infra.Standard/2.1.0.17": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
