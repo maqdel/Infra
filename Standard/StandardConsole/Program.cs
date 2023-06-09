@@ -4,6 +4,8 @@ using maqdel.Infra;
 
 using log4net;
 
+using System.Drawing;
+
 namespace maqdel.Infra
 {
     internal class Program
@@ -18,6 +20,7 @@ namespace maqdel.Infra
 
             _standardConsole = new StandardConsole();
             _standardConsole.StartConsole();
+
         }
     }
 }

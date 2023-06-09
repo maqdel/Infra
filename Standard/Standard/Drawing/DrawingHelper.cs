@@ -8,6 +8,7 @@ using System.IO;
 
 
 using log4net;
+using System.Drawing;
 
 namespace maqdel.Infra.Drawing
 {
@@ -39,36 +40,45 @@ namespace maqdel.Infra.Drawing
 
         }
 
-/*         public static System.Drawing.Bitmap ToImage(byte[] ByteArray)
+        public static System.Drawing.Bitmap ToImage(byte[] ByteArray)
         {
             _logger.Info("ToImage");
+            Bitmap answer = null;
             try
             {
-                MemoryStream ms = new MemoryStream(ByteArray);
-                System.Drawing.Bitmap returnImage = System.Drawing.Bitmap.FromStream(ms);
-                return returnImage;
+                // Create a new memory stream from the byte array
+                MemoryStream memoryStream = new MemoryStream(ByteArray);
+
+                // Create a new bitmap object from the memory stream
+                Bitmap bitmap = new Bitmap(memoryStream);
+
+                // Dispose of the memory stream
+                memoryStream.Dispose();
+
+                // Return the bitmap object
+                answer =  bitmap;
             }
-            catch (Exception Ex)
+            catch (Exception ex)
             {
-                throw (Ex);
+                _logger.Error("ToImage", ex);
             }
+            return answer;
+        }
 
-        } */
 
-
-        /* 
+        /*
         public static void Example()
         {
             _logger.Info("");
             try
             {
-                
+
             }
             catch (Exception ex)
             {
                 _logger.Error(", Exception:", ex);
             }
-        } 
+        }
         */
     }
 }

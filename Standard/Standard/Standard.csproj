@@ -5,7 +5,7 @@
     <AssemblyName>maqdel.Infra.Standard</AssemblyName>
     <RootNamespace>maqdel.Infra</RootNamespace>
 
-    <Version>2.1.0.17</Version>
+    <Version>2.1.0.18</Version>
 
     <Product>maqdel.Infra.Standard</Product>
     <Title>maqdel.Infra.Standard</Title>
@@ -26,12 +26,9 @@
     <PackageReleaseNotes>
     Release:
 
-    New IO.GetDrivesInfo - Get a list of Drives Info
-    New IO.GetDrivesNames - Get a list of drives names
-    New IO.GetPathDirectories - Get a list of directories on path
-    New IO.GetPathFiles - Get a list of files on path
-    New IO.GetPathAllFiles - Get list of files in path and subfolder
-    
+    New Net.WebResult.StatusOk - Indicate if the Status is Ok
+    New Net.WebResult.AsResult - Indicate if the result is not null
+
     </PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>

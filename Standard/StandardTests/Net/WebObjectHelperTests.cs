@@ -53,6 +53,7 @@ namespace maqdel.Tests.Infra.Net
 
                     result.StatusCode.ShouldBe(HttpStatusCode.OK);
                     result.StatusOk.ShouldBe(false);
+                    result.AsResult.ShouldBe(false);
                     result.Result.StringValue.ShouldBe("ExpectedStringValue");
                     result.Result.IntValue.ShouldBe(408);
 

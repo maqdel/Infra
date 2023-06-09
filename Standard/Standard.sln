@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard", "Standard\Standa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "standardtests", "standardtests\standardtests.csproj", "{59B0223F-B67A-4EA2-A98E-6750ED697E52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardTests_6_0", "StandardTests_6_0\StandardTests_6_0.csproj", "{C638D5C3-58A0-48BC-BA75-01104A44BE7D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardConsole", "StandardConsole\StandardConsole.csproj", "{1BACC0E3-F641-4C11-B914-69238EDCE579}"
 EndProject
 Global

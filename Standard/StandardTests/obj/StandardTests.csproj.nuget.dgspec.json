@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\Infra\\Infra\\standard\\StandardTests\\StandardTests.csproj": {}
+    "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj": {}
   },
   "projects": {
-    "D:\\Git\\Infra\\Infra\\standard\\StandardTests\\StandardTests.csproj": {
+    "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\Infra\\Infra\\standard\\StandardTests\\StandardTests.csproj",
-        "projectName": "StandardTests",
-        "projectPath": "D:\\Git\\Infra\\Infra\\standard\\StandardTests\\StandardTests.csproj",
+        "projectUniqueName": "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj",
+        "projectName": "standardtests",
+        "projectPath": "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj",
         "packagesPath": "C:\\Users\\maqde\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\Infra\\Infra\\standard\\StandardTests\\obj\\",
+        "outputPath": "D:\\Git\\Infra\\Infra\\standard\\standardtests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maqde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,7 +82,7 @@
       }
     },
     "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj": {
-      "version": "2.1.0.17",
+      "version": "2.1.0.18",
       "restore": {
         "projectUniqueName": "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj",
         "projectName": "maqdel.Infra.Standard",
