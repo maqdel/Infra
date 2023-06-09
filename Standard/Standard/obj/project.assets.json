@@ -598,13 +598,13 @@
     "C:\\Users\\maqde\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "2.1.0.17",
+    "version": "2.1.0.18",
     "restore": {
-      "projectUniqueName": "D:\\Git\\Infra\\Infra\\Standard\\standard\\Standard.csproj",
+      "projectUniqueName": "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj",
       "projectName": "maqdel.Infra.Standard",
-      "projectPath": "D:\\Git\\Infra\\Infra\\Standard\\standard\\Standard.csproj",
+      "projectPath": "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj",
       "packagesPath": "C:\\Users\\maqde\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\Infra\\Infra\\Standard\\standard\\obj\\",
+      "outputPath": "D:\\Git\\Infra\\Infra\\standard\\Standard\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maqde\\AppData\\Roaming\\NuGet\\NuGet.Config",
