@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj": {}
+    "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj": {}
   },
   "projects": {
-    "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj": {
+    "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj",
+        "projectUniqueName": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj",
         "projectName": "standardtests",
-        "projectPath": "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj",
+        "projectPath": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj",
         "packagesPath": "C:\\Users\\maqde\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\Infra\\Infra\\standard\\standardtests\\obj\\",
+        "outputPath": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maqde\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\maqde\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj": {
-                "projectPath": "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj"
+              "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj": {
+                "projectPath": "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj"
               }
             }
           }
@@ -41,8 +39,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -77,28 +75,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj": {
+    "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj": {
       "version": "2.1.0.18",
       "restore": {
-        "projectUniqueName": "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj",
+        "projectUniqueName": "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj",
         "projectName": "maqdel.Infra.Standard",
-        "projectPath": "D:\\Git\\Infra\\Infra\\standard\\Standard\\Standard.csproj",
+        "projectPath": "D:\\Git\\Infra\\Infra\\Standard\\Standard\\Standard.csproj",
         "packagesPath": "C:\\Users\\maqde\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\Infra\\Infra\\standard\\Standard\\obj\\",
+        "outputPath": "D:\\Git\\Infra\\Infra\\Standard\\Standard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maqde\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\maqde\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -146,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
