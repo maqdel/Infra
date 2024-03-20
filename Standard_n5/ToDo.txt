@@ -1,0 +1,20 @@
+Unit test for:
+
+CSVFileTool
+FileRiderTool
+IOHelper
+NetHelper
+NetworkTracerTool
+SecurityHelper
+
+
+
+
+
+Methods ideas:
+
+Compare content in 2 folders
+Find a file
+Compare 2 files
+Backup a folder / file
+

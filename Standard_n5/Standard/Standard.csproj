@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>maqdel.Infra.Standard</AssemblyName>
+    <RootNamespace>maqdel.Infra</RootNamespace>
+
+    <Version>2.1.0.18</Version>
+
+    <Product>maqdel.Infra.Standard</Product>
+    <Title>maqdel.Infra.Standard</Title>
+    <Description>
+    Objects, Tools, and Helpers for .NET Development
+
+    Compatible with: .NET 6.0/.NET 5.0/.NET Core 3.0/.NET Standard 2.1
+    </Description>
+    <Authors>Mario Quilantan</Authors>
+    <Company>maqdel</Company>
+    <Copyright></Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryUrl>https://github.com/maqdel/VSC_Infra_Standard_2_1</RepositoryUrl>
+
+    <PackageId>maqdel.Infra.Standard</PackageId>
+    <PackageProjectUrl>https://maqdel.wordpress.com/maqdel-infra/</PackageProjectUrl>
+    <PackageTags>.Net Standard 2.1</PackageTags>
+    <PackageReleaseNotes>
+    Release:
+
+    New Net.WebResult.StatusOk - Indicate if the Status is Ok
+    New Net.WebResult.AsResult - Indicate if the result is not null
+
+    </PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.12" />
+    <None Include="docs\README.md" Pack="true" PackagePath="\" />
+    <None Include="licenses\LICENSE.txt" Pack="true" PackagePath="LICENSE.txt" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

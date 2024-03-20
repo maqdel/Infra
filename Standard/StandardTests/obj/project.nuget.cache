@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zkv0e65Wdrh+P5Nlu5jYeISY1XUgHx7aIDjMuHRIiGw83V8qhn5UUJKv2lYT0HUNLPrnQ3rc/ZvyLcopPdZjsw==",
+  "dgSpecHash": "+GAVqXS7SezvxSq6sL5v10/5B8bCVM7ngRghbhAf4aWcgrtdftUry6l9FqdiAnGs3Ic0tfHzxU8hMJmzpZjIAQ==",
   "success": true,
-  "projectFilePath": "D:\\Git\\Infra\\Infra\\standard\\standardtests\\standardtests.csproj",
+  "projectFilePath": "D:\\Git\\Infra\\Infra\\Standard\\standardtests\\standardtests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maqde\\.nuget\\packages\\diffengine\\6.4.9\\diffengine.6.4.9.nupkg.sha512",
     "C:\\Users\\maqde\\.nuget\\packages\\emptyfiles\\2.3.3\\emptyfiles.2.3.3.nupkg.sha512",
@@ -118,8 +118,7 @@
     "C:\\Users\\maqde\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\maqde\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\maqde\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\maqde\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\maqde\\.nuget\\packages\\maqdel.infra.standard\\2.1.0.18\\maqdel.infra.standard.2.1.0.18.nupkg.sha512"
+    "C:\\Users\\maqde\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
